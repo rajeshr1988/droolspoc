@@ -1,0 +1,7 @@
+http://localhost:8080/getdiscount
+
+<?xml version="1.0" encoding="UTF-8"?>
+<product>
+    <type>silver</type>
+   
+</product>
