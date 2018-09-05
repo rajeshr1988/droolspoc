@@ -1,0 +1,10 @@
+package rules
+ 
+import com.javainuse.model.Product
+rule "Offer for Diamond"
+	when 
+		productObject: Product(type=="diamond")
+	then	
+		System.out.println("Diamond");
+		productObject.setDiscount(15);
+	end
