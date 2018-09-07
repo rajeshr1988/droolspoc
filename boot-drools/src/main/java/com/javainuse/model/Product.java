@@ -1,8 +1,26 @@
 package com.javainuse.model;
 
-public class Product {
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
 
+@XmlRootElement(name = "product")
+@XmlAccessorType (XmlAccessType.FIELD)
+public class Product {
+	
 	private String type;
+	
+	private int price;
+	
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
 	private int discount;
 
 	public String getType() {
