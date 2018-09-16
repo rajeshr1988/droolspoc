@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.springframework.boot"
+		module="spring-boot-loader"
+		revision="2.0.5.RELEASE"
+		status="release"
+		publication="20180912162916"
+	>
+		<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0" />
+		<description homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-tools/spring-boot-loader">
+		Spring Boot Loader
+		</description>
+		<m:dependency.management__org.mongodb__mongodb-driver-core__version>3.6.4</m:dependency.management__org.mongodb__mongodb-driver-core__version>
+		<m:properties__spring.version>5.0.9.RELEASE</m:properties__spring.version>
+		<m:dependency.management__org.apache.activemq__activemq-jms-pool__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-jms-pool__version>
+		<m:properties__thymeleaf-layout-dialect.version>2.3.0</m:properties__thymeleaf-layout-dialect.version>
+		<m:dependency.management__org.infinispan__infinispan-cli__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-cli__version>
+		<m:dependency.management__org.springframework.cloud__spring-cloud-heroku-connector__version>2.0.3.RELEASE</m:dependency.management__org.springframework.cloud__spring-cloud-heroku-connector__version>
+		<m:dependency.management__ch.qos.logback__logback-access__version>1.2.3</m:dependency.management__ch.qos.logback__logback-access__version>
+		<m:properties__hibernate-validator.version>6.0.12.Final</m:properties__hibernate-validator.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-redis__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-redis__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-jdbi__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-jdbi__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-test-autoconfigure__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-test-autoconfigure__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-ganglia__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-ganglia__version>
+		<m:dependency.management__org.hibernate__hibernate-entitymanager__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-entitymanager__version>
+		<m:dependency.management__redis.clients__jedis__version>2.9.0</m:dependency.management__redis.clients__jedis__version>
+		<m:dependency.management__org.hibernate.validator__hibernate-validator-annotation-processor__version>6.0.12.Final</m:dependency.management__org.hibernate.validator__hibernate-validator-annotation-processor__version>
+		<m:properties__lombok.version>1.16.22</m:properties__lombok.version>
+		<m:dependency.management__org.apache.tomcat.embed__tomcat-embed-core__version>8.5.34</m:dependency.management__org.apache.tomcat.embed__tomcat-embed-core__version>
+		<m:dependency.management__org.firebirdsql.jdbc__jaybird-jdk18__version>3.0.5</m:dependency.management__org.firebirdsql.jdbc__jaybird-jdk18__version>
+		<m:properties__build-helper-maven-plugin.version>3.0.0</m:properties__build-helper-maven-plugin.version>
+		<m:properties__simple-json.version>1.1.1</m:properties__simple-json.version>
+		<m:properties__querydsl.version>4.1.4</m:properties__querydsl.version>
+		<m:dependency.management__com.rabbitmq__amqp-client__version>5.4.1</m:dependency.management__com.rabbitmq__amqp-client__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-reactor-netty__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-reactor-netty__version>
+		<m:dependency.management__org.springframework.integration__spring-integration-http__version>5.0.8.RELEASE</m:dependency.management__org.springframework.integration__spring-integration-http__version>
+		<m:dependency.management__org.infinispan__infinispan-persistence-soft-index__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-persistence-soft-index__version>
+		<m:dependency.management__org.springframework.data__spring-data-releasetrain__scope>import</m:dependency.management__org.springframework.data__spring-data-releasetrain__scope>
+		<m:properties__reactive-streams.version>1.0.2</m:properties__reactive-streams.version>
+		<m:properties__selenium.version>3.9.1</m:properties__selenium.version>
+		<m:dependency.management__org.apache.kafka__kafka-streams__version>1.0.2</m:dependency.management__org.apache.kafka__kafka-streams__version>
+		<m:dependency.management__org.apache.activemq__artemis-service-extensions__version>2.4.0</m:dependency.management__org.apache.activemq__artemis-service-extensions__version>
+		<m:properties__caffeine.version>2.6.2</m:properties__caffeine.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-autoconfigure__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-autoconfigure__version>
+		<m:dependency.management__org.thymeleaf.extras__thymeleaf-extras-springsecurity4__version>3.0.2.RELEASE</m:dependency.management__org.thymeleaf.extras__thymeleaf-extras-springsecurity4__version>
+		<m:dependency.management__io.reactivex__rxjava-reactive-streams__version>1.2.1</m:dependency.management__io.reactivex__rxjava-reactive-streams__version>
+		<m:dependency.management__io.micrometer__micrometer-registry-jmx__version>1.0.6</m:dependency.management__io.micrometer__micrometer-registry-jmx__version>
+		<m:dependency.management__org.slf4j__slf4j-ext__version>1.7.25</m:dependency.management__org.slf4j__slf4j-ext__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-jdk7__version>1.2.51</m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-jdk7__version>
+		<m:dependency.management__org.apache.kafka__kafka-log4j-appender__version>1.0.2</m:dependency.management__org.apache.kafka__kafka-log4j-appender__version>
+		<m:properties__javax-annotation.version>1.3.2</m:properties__javax-annotation.version>
+		<m:dependency.management__org.springframework.ldap__spring-ldap-ldif-batch__version>2.3.2.RELEASE</m:dependency.management__org.springframework.ldap__spring-ldap-ldif-batch__version>
+		<m:dependency.management__io.micrometer__micrometer-core__version>1.0.6</m:dependency.management__io.micrometer__micrometer-core__version>
+		<m:dependency.management__org.apache.tomcat.embed__tomcat-embed-el__version>8.5.34</m:dependency.management__org.apache.tomcat.embed__tomcat-embed-el__version>
+		<m:dependency.management__com.hazelcast__hazelcast-client__version>3.9.4</m:dependency.management__com.hazelcast__hazelcast-client__version>
+		<m:dependency.management__org.assertj__assertj-core__version>3.9.1</m:dependency.management__org.assertj__assertj-core__version>
+		<m:dependency.management__org.hibernate__hibernate-testing__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-testing__version>
+		<m:dependency.management__org.apache.activemq__activemq-openwire-generator__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-openwire-generator__version>
+		<m:dependency.management__org.jooq__jooq-meta__version>3.10.8</m:dependency.management__org.jooq__jooq-meta__version>
+		<m:dependency.management__org.flywaydb__flyway-core__version>5.0.7</m:dependency.management__org.flywaydb__flyway-core__version>
+		<m:properties__statsd-client.version>3.1.0</m:properties__statsd-client.version>
+		<m:dependency.management__org.springframework.amqp__spring-rabbit-junit__version>2.0.6.RELEASE</m:dependency.management__org.springframework.amqp__spring-rabbit-junit__version>
+		<m:dependency.management__org.apache.solr__solr-analytics__version>6.6.5</m:dependency.management__org.apache.solr__solr-analytics__version>
+		<m:properties__htmlunit.version>2.29</m:properties__htmlunit.version>
+		<m:dependency.management__org.hibernate__hibernate-jcache__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-jcache__version>
+		<m:dependency.management__io.netty__netty-bom__version>4.1.29.Final</m:dependency.management__io.netty__netty-bom__version>
+		<m:dependency.management__org.codehaus.groovy__groovy-jmx__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-jmx__version>
+		<m:dependency.management__org.xmlunit__xmlunit-legacy__version>2.5.1</m:dependency.management__org.xmlunit__xmlunit-legacy__version>
+		<m:properties__maven-site-plugin.version>3.6</m:properties__maven-site-plugin.version>
+		<m:dependency.management__org.codehaus.groovy__groovy-nio__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-nio__version>
+		<m:dependency.management__org.springframework__spring-core__version>5.0.9.RELEASE</m:dependency.management__org.springframework__spring-core__version>
+		<m:dependency.management__org.hamcrest__hamcrest-library__version>1.3</m:dependency.management__org.hamcrest__hamcrest-library__version>
+		<m:dependency.management__org.infinispan__infinispan-spring4-remote__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-spring4-remote__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-jersey2__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-jersey2__version>
+		<m:dependency.management__org.codehaus.groovy__groovy-swing__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-swing__version>
+		<m:properties__spring-retry.version>1.2.2.RELEASE</m:properties__spring-retry.version>
+		<m:dependency.management__org.infinispan__infinispan-jcache-commons__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-jcache-commons__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-log4j2__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-log4j2__version>
+		<m:dependency.management__org.apache.activemq__activemq-mqtt__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-mqtt__version>
+		<m:properties__rest-assured.version>3.0.7</m:properties__rest-assured.version>
+		<m:dependency.management__org.apache.solr__solr-dataimporthandler__version>6.6.5</m:dependency.management__org.apache.solr__solr-dataimporthandler__version>
+		<m:dependency.management__org.infinispan__infinispan-persistence-cli__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-persistence-cli__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-runtime__version>1.2.51</m:dependency.management__org.jetbrains.kotlin__kotlin-runtime__version>
+		<m:dependency.management__com.querydsl__querydsl-mongodb__version>4.1.4</m:dependency.management__com.querydsl__querydsl-mongodb__version>
+		<m:dependency.management__io.rest-assured__xml-path__version>3.0.7</m:dependency.management__io.rest-assured__xml-path__version>
+		<m:dependency.management__org.apache.kafka__connect-runtime__version>1.0.2</m:dependency.management__org.apache.kafka__connect-runtime__version>
+		<m:dependency.management__io.lettuce__lettuce-core__version>5.0.5.RELEASE</m:dependency.management__io.lettuce__lettuce-core__version>
+		<m:dependency.management__com.fasterxml.jackson__jackson-bom__scope>import</m:dependency.management__com.fasterxml.jackson__jackson-bom__scope>
+		<m:dependency.management__org.apache.httpcomponents__httpclient__version>4.5.6</m:dependency.management__org.apache.httpcomponents__httpclient__version>
+		<m:properties__spring-amqp.version>2.0.6.RELEASE</m:properties__spring-amqp.version>
+		<m:dependency.management__com.hazelcast__hazelcast__version>3.9.4</m:dependency.management__com.hazelcast__hazelcast__version>
+		<m:properties__javax-transaction.version>1.2</m:properties__javax-transaction.version>
+		<m:dependency.management__io.reactivex__rxjava__version>1.3.8</m:dependency.management__io.reactivex__rxjava__version>
+		<m:dependency.management__org.apache.commons__commons-pool2__version>2.5.0</m:dependency.management__org.apache.commons__commons-pool2__version>
+		<m:properties__flatten-maven-plugin.version>1.0.1</m:properties__flatten-maven-plugin.version>
+		<m:dependency.management__org.seleniumhq.selenium__htmlunit-driver__version>2.29.3</m:dependency.management__org.seleniumhq.selenium__htmlunit-driver__version>
+		<m:dependency.management__org.xmlunit__xmlunit-core__version>2.5.1</m:dependency.management__org.xmlunit__xmlunit-core__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-logging__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-logging__version>
+		<m:dependency.management__org.springframework.restdocs__spring-restdocs-restassured__version>2.0.2.RELEASE</m:dependency.management__org.springframework.restdocs__spring-restdocs-restassured__version>
+		<m:properties__thymeleaf-extras-java8time.version>3.0.1.RELEASE</m:properties__thymeleaf-extras-java8time.version>
+		<m:dependency.management__org.springframework.ws__spring-ws-security__version>3.0.3.RELEASE</m:dependency.management__org.springframework.ws__spring-ws-security__version>
+		<m:properties__rxjava-adapter.version>1.2.1</m:properties__rxjava-adapter.version>
+		<m:dependency.management__org.apache.activemq__artemis-jms-server__version>2.4.0</m:dependency.management__org.apache.activemq__artemis-jms-server__version>
+		<m:properties__rabbit-amqp-client.version>5.4.1</m:properties__rabbit-amqp-client.version>
+		<m:dependency.management__org.springframework.batch__spring-batch-infrastructure__version>4.0.1.RELEASE</m:dependency.management__org.springframework.batch__spring-batch-infrastructure__version>
+		<m:dependency.management__com.querydsl__querydsl-jpa__version>4.1.4</m:dependency.management__com.querydsl__querydsl-jpa__version>
+		<m:dependency.management__org.apache.httpcomponents__httpclient-cache__version>4.5.6</m:dependency.management__org.apache.httpcomponents__httpclient-cache__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-batch__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-batch__version>
+		<m:dependency.management__org.apache.commons__commons-lang3__version>3.7</m:dependency.management__org.apache.commons__commons-lang3__version>
+		<m:properties__artemis.version>2.4.0</m:properties__artemis.version>
+		<m:dependency.management__org.glassfish.jersey.core__jersey-client__version>2.26</m:dependency.management__org.glassfish.jersey.core__jersey-client__version>
+		<m:dependency.management__io.micrometer__micrometer-registry-datadog__version>1.0.6</m:dependency.management__io.micrometer__micrometer-registry-datadog__version>
+		<m:properties__hibernate.version>5.2.17.Final</m:properties__hibernate.version>
+		<m:properties__slf4j.version>1.7.25</m:properties__slf4j.version>
+		<m:properties__spring-restdocs.version>2.0.2.RELEASE</m:properties__spring-restdocs.version>
+		<m:dependency.management__io.undertow__undertow-core__version>1.4.25.Final</m:dependency.management__io.undertow__undertow-core__version>
+		<m:dependency.management__org.hibernate__hibernate-envers__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-envers__version>
+		<m:dependency.management__org.neo4j__neo4j-ogm-core__version>3.1.2</m:dependency.management__org.neo4j__neo4j-ogm-core__version>
+		<m:dependency.management__javax.annotation__javax.annotation-api__version>1.3.2</m:dependency.management__javax.annotation__javax.annotation-api__version>
+		<m:dependency.management__org.codehaus.groovy__groovy-docgenerator__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-docgenerator__version>
+		<m:dependency.management__org.jboss.narayana.jts__narayana-jts-integration__version>5.8.2.Final</m:dependency.management__org.jboss.narayana.jts__narayana-jts-integration__version>
+		<m:dependency.management__io.micrometer__micrometer-registry-influx__version>1.0.6</m:dependency.management__io.micrometer__micrometer-registry-influx__version>
+		<m:dependency.management__io.micrometer__micrometer-registry-prometheus__version>1.0.6</m:dependency.management__io.micrometer__micrometer-registry-prometheus__version>
+		<m:dependency.management__org.seleniumhq.selenium__selenium-edge-driver__version>3.9.1</m:dependency.management__org.seleniumhq.selenium__selenium-edge-driver__version>
+		<m:dependency.management__org.apache.kafka__connect-transforms__version>1.0.2</m:dependency.management__org.apache.kafka__connect-transforms__version>
+		<m:dependency.management__org.apache.logging.log4j__log4j-to-slf4j__version>2.10.0</m:dependency.management__org.apache.logging.log4j__log4j-to-slf4j__version>
+		<m:dependency.management__org.firebirdsql.jdbc__jaybird-jdk17__version>3.0.5</m:dependency.management__org.firebirdsql.jdbc__jaybird-jdk17__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-undertow__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-undertow__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-cassandra-reactive__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-cassandra-reactive__version>
+		<m:dependency.management__com.sendgrid__sendgrid-java__version>4.1.2</m:dependency.management__com.sendgrid__sendgrid-java__version>
+		<m:dependency.management__org.codehaus.groovy__groovy-testng__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-testng__version>
+		<m:dependency.management__org.infinispan__infinispan-spring4-embedded__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-spring4-embedded__version>
+		<m:dependency.management__org.freemarker__freemarker__version>2.3.28</m:dependency.management__org.freemarker__freemarker__version>
+		<m:dependency.management__org.springframework.restdocs__spring-restdocs-webtestclient__version>2.0.2.RELEASE</m:dependency.management__org.springframework.restdocs__spring-restdocs-webtestclient__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-log4j2__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-log4j2__version>
+		<m:dependency.management__org.jboss.narayana.jta__jms__version>5.8.2.Final</m:dependency.management__org.jboss.narayana.jta__jms__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-jdbc__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-jdbc__version>
+		<m:dependency.management__net.bytebuddy__byte-buddy__version>1.7.11</m:dependency.management__net.bytebuddy__byte-buddy__version>
+		<m:dependency.management__org.infinispan__infinispan-cdi-common__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-cdi-common__version>
+		<m:dependency.management__org.apache.solr__solr-analysis-extras__version>6.6.5</m:dependency.management__org.apache.solr__solr-analysis-extras__version>
+		<m:dependency.management__org.springframework.session__spring-session-bom__scope>import</m:dependency.management__org.springframework.session__spring-session-bom__scope>
+		<m:dependency.management__org.infinispan__infinispan-cachestore-rocksdb__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-cachestore-rocksdb__version>
+		<m:dependency.management__org.apache.activemq__activemq-run__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-run__version>
+		<m:dependency.management__io.micrometer__micrometer-registry-ganglia__version>1.0.6</m:dependency.management__io.micrometer__micrometer-registry-ganglia__version>
+		<m:properties__jna.version>4.5.2</m:properties__jna.version>
+		<m:properties__jetty.version>9.4.12.v20180830</m:properties__jetty.version>
+		<m:dependency.management__org.ehcache__ehcache-transactions__version>3.5.2</m:dependency.management__org.ehcache__ehcache-transactions__version>
+		<m:dependency.management__org.infinispan__infinispan-core__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-core__version>
+		<m:dependency.management__org.springframework.ws__spring-ws-test__version>3.0.3.RELEASE</m:dependency.management__org.springframework.ws__spring-ws-test__version>
+		<m:properties__commons-lang3.version>3.7</m:properties__commons-lang3.version>
+		<m:dependency.management__org.infinispan__infinispan-client-hotrod__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-client-hotrod__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-spring4__version>2.26</m:dependency.management__org.glassfish.jersey.ext__jersey-spring4__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-integration__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-integration__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-servlets__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-servlets__version>
+		<m:dependency.management__org.liquibase__liquibase-core__version>3.5.5</m:dependency.management__org.liquibase__liquibase-core__version>
+		<m:properties__antlr2.version>2.7.7</m:properties__antlr2.version>
+		<m:dependency.management__javax.jms__javax.jms-api__version>2.0.1</m:dependency.management__javax.jms__javax.jms-api__version>
+		<m:dependency.management__org.apache.activemq__activemq-pool__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-pool__version>
+		<m:properties__netty.version>4.1.29.Final</m:properties__netty.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-configuration-processor__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-configuration-processor__version>
+		<m:dependency.management__org.hamcrest__hamcrest-core__version>1.3</m:dependency.management__org.hamcrest__hamcrest-core__version>
+		<m:dependency.management__com.jayway.jsonpath__json-path-assert__version>2.4.0</m:dependency.management__com.jayway.jsonpath__json-path-assert__version>
+		<m:properties__jooq.version>3.10.8</m:properties__jooq.version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-servlet__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-servlet__version>
+		<m:properties__log4j2.version>2.10.0</m:properties__log4j2.version>
+		<m:dependency.management__org.springframework.cloud__spring-cloud-connectors-core__version>2.0.3.RELEASE</m:dependency.management__org.springframework.cloud__spring-cloud-connectors-core__version>
+		<m:dependency.management__io.searchbox__jest__version>5.3.4</m:dependency.management__io.searchbox__jest__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-loader-tools__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-loader-tools__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-solr__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-solr__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-mail__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-mail__version>
+		<m:dependency.management__io.rest-assured__scala-support__version>3.0.7</m:dependency.management__io.rest-assured__scala-support__version>
+		<m:properties__webjars-locator-core.version>0.35</m:properties__webjars-locator-core.version>
+		<m:properties__groovy.version>2.4.15</m:properties__groovy.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-cloud-connectors__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-cloud-connectors__version>
+		<m:dependency.management__commons-codec__commons-codec__version>1.11</m:dependency.management__commons-codec__commons-codec__version>
+		<m:dependency.management__org.ehcache__ehcache__version>3.5.2</m:dependency.management__org.ehcache__ehcache__version>
+		<m:dependency.management__org.apache.httpcomponents__fluent-hc__version>4.5.6</m:dependency.management__org.apache.httpcomponents__fluent-hc__version>
+		<m:dependency.management__javax.cache__cache-api__version>1.1.0</m:dependency.management__javax.cache__cache-api__version>
+		<m:dependency.management__org.apache.kafka__connect-api__version>1.0.2</m:dependency.management__org.apache.kafka__connect-api__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-loader__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-loader__version>
+		<m:dependency.management__org.apache.solr__solr-uima__version>6.6.5</m:dependency.management__org.apache.solr__solr-uima__version>
+		<m:dependency.management__org.codehaus.groovy__groovy-templates__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-templates__version>
+		<m:properties__junit.version>4.12</m:properties__junit.version>
+		<m:dependency.management__de.flapdoodle.embed__de.flapdoodle.embed.mongo__version>2.0.3</m:dependency.management__de.flapdoodle.embed__de.flapdoodle.embed.mongo__version>
+		<m:dependency.management__javax.transaction__javax.transaction-api__version>1.2</m:dependency.management__javax.transaction__javax.transaction-api__version>
+		<m:properties__maven-javadoc-plugin.version>3.0.1</m:properties__maven-javadoc-plugin.version>
+		<m:dependency.management__org.apache.logging.log4j__log4j-bom__scope>import</m:dependency.management__org.apache.logging.log4j__log4j-bom__scope>
+		<m:properties__selenium-htmlunit.version>2.29.3</m:properties__selenium-htmlunit.version>
+		<m:dependency.management__org.apache.activemq__activemq-client__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-client__version>
+		<m:properties__wsdl4j.version>1.6.3</m:properties__wsdl4j.version>
+		<m:dependency.management__jaxen__jaxen__version>1.1.6</m:dependency.management__jaxen__jaxen__version>
+		<m:properties__spring-data-releasetrain.version>Kay-SR10</m:properties__spring-data-releasetrain.version>
+		<m:dependency.management__org.infinispan__infinispan-cloud__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-cloud__version>
+		<m:dependency.management__org.seleniumhq.selenium__selenium-safari-driver__version>3.9.1</m:dependency.management__org.seleniumhq.selenium__selenium-safari-driver__version>
+		<m:properties__aspectj.version>1.8.13</m:properties__aspectj.version>
+		<m:properties__exec-maven-plugin.version>1.5.0</m:properties__exec-maven-plugin.version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-jetty8__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-jetty8__version>
+		<m:dependency.management__com.couchbase.client__java-client__version>2.5.9</m:dependency.management__com.couchbase.client__java-client__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-multipart__version>2.26</m:dependency.management__org.glassfish.jersey.media__jersey-media-multipart__version>
+		<m:dependency.management__org.junit.jupiter__junit-jupiter-engine__version>5.1.1</m:dependency.management__org.junit.jupiter__junit-jupiter-engine__version>
+		<m:dependency.management__org.apache.activemq__activemq-runtime-config__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-runtime-config__version>
+		<m:dependency.management__org.springframework.cloud__spring-cloud-spring-service-connector__version>2.0.3.RELEASE</m:dependency.management__org.springframework.cloud__spring-cloud-spring-service-connector__version>
+		<m:properties__liquibase.version>3.5.5</m:properties__liquibase.version>
+		<m:properties__maven-clean-plugin.version>3.0.0</m:properties__maven-clean-plugin.version>
+		<m:properties__spring-ldap.version>2.3.2.RELEASE</m:properties__spring-ldap.version>
+		<m:dependency.management__com.github.ben-manes.caffeine__caffeine__version>2.6.2</m:dependency.management__com.github.ben-manes.caffeine__caffeine__version>
+		<m:dependency.management__org.apache.httpcomponents__httpcore-nio__version>4.4.10</m:dependency.management__org.apache.httpcomponents__httpcore-nio__version>
+		<m:dependency.management__org.mongodb__bson__version>3.6.4</m:dependency.management__org.mongodb__bson__version>
+		<m:properties__jstl.version>1.2</m:properties__jstl.version>
+		<m:dependency.management__org.elasticsearch.plugin__transport-netty4-client__version>5.6.11</m:dependency.management__org.elasticsearch.plugin__transport-netty4-client__version>
+		<m:properties__thymeleaf-extras-springsecurity4.version>3.0.2.RELEASE</m:properties__thymeleaf-extras-springsecurity4.version>
+		<m:dependency.management__org.jooq__jooq-codegen__version>3.10.8</m:dependency.management__org.jooq__jooq-codegen__version>
+		<m:properties__embedded-mongo.version>2.0.3</m:properties__embedded-mongo.version>
+		<m:dependency.management__io.micrometer__micrometer-registry-statsd__version>1.0.6</m:dependency.management__io.micrometer__micrometer-registry-statsd__version>
+		<m:dependency.management__org.mongodb__mongo-java-driver__version>3.6.4</m:dependency.management__org.mongodb__mongo-java-driver__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-cassandra__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-cassandra__version>
+		<m:dependency.management__org.apache.activemq__activemq-jaas__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-jaas__version>
+		<m:dependency.management__org.apache.commons__commons-dbcp2__version>2.2.0</m:dependency.management__org.apache.commons__commons-dbcp2__version>
+		<m:properties__ehcache.version>2.10.5</m:properties__ehcache.version>
+		<m:dependency.management__org.codehaus.groovy__groovy-sql__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-sql__version>
+		<m:properties__sun-mail.version>1.6.2</m:properties__sun-mail.version>
+		<m:dependency.management__org.apache.activemq__activemq-broker__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-broker__version>
+		<m:properties__jtds.version>1.3.1</m:properties__jtds.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-actuator__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-actuator__version>
+		<m:dependency.management__org.aspectj__aspectjweaver__version>1.8.13</m:dependency.management__org.aspectj__aspectjweaver__version>
+		<m:dependency.management__org.junit.jupiter__junit-jupiter-api__version>5.1.1</m:dependency.management__org.junit.jupiter__junit-jupiter-api__version>
+		<m:dependency.management__org.seleniumhq.selenium__selenium-api__version>3.9.1</m:dependency.management__org.seleniumhq.selenium__selenium-api__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-jetty__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-jetty__version>
+		<m:properties__bitronix.version>2.1.4</m:properties__bitronix.version>
+		<m:dependency.management__org.apache.kafka__kafka_2.12__version>1.0.2</m:dependency.management__org.apache.kafka__kafka_2.12__version>
+		<m:dependency.management__org.infinispan__infinispan-cachestore-jdbc__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-cachestore-jdbc__version>
+		<m:properties__javax-json.version>1.1.2</m:properties__javax-json.version>
+		<m:properties__maven-enforcer-plugin.version>3.0.0-M2</m:properties__maven-enforcer-plugin.version>
+		<m:properties__jboss-transaction-spi.version>7.6.0.Final</m:properties__jboss-transaction-spi.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-web__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-web__version>
+		<m:dependency.management__org.apache.tomcat__tomcat-annotations-api__version>8.5.34</m:dependency.management__org.apache.tomcat__tomcat-annotations-api__version>
+		<m:dependency.management__org.apache.solr__solr-velocity__version>6.6.5</m:dependency.management__org.apache.solr__solr-velocity__version>
+		<m:properties__webjars-hal-browser.version>3325375</m:properties__webjars-hal-browser.version>
+		<m:dependency.management__org.mongodb__mongodb-driver__version>3.6.4</m:dependency.management__org.mongodb__mongodb-driver__version>
+		<m:dependency.management__org.springframework.retry__spring-retry__version>1.2.2.RELEASE</m:dependency.management__org.springframework.retry__spring-retry__version>
+		<m:properties__infinispan.version>9.1.7.Final</m:properties__infinispan.version>
+		<m:properties__jedis.version>2.9.0</m:properties__jedis.version>
+		<m:dependency.management__com.microsoft.sqlserver__mssql-jdbc__version>6.2.2.jre8</m:dependency.management__com.microsoft.sqlserver__mssql-jdbc__version>
+		<m:dependency.management__com.google.appengine__appengine-api-1.0-sdk__version>1.9.64</m:dependency.management__com.google.appengine__appengine-api-1.0-sdk__version>
+		<m:dependency.management__org.infinispan__infinispan-jcache-remote__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-jcache-remote__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-tomcat__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-tomcat__version>
+		<m:dependency.management__org.infinispan__infinispan-tasks-api__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-tasks-api__version>
+		<m:dependency.management__org.springframework.session__spring-session-bom__version>Apple-SR5</m:dependency.management__org.springframework.session__spring-session-bom__version>
+		<m:properties__gson.version>2.8.5</m:properties__gson.version>
+		<m:properties__sqlite-jdbc.version>3.21.0.1</m:properties__sqlite-jdbc.version>
+		<m:properties__postgresql.version>42.2.5</m:properties__postgresql.version>
+		<m:dependency.management__org.springframework.plugin__spring-plugin-metadata__version>1.2.0.RELEASE</m:dependency.management__org.springframework.plugin__spring-plugin-metadata__version>
+		<m:properties__jdom2.version>2.0.6</m:properties__jdom2.version>
+		<m:dependency.management__org.infinispan__infinispan-jcache__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-jcache__version>
+		<m:properties__spring-cloud-connectors.version>2.0.3.RELEASE</m:properties__spring-cloud-connectors.version>
+		<m:dependency.management__com.hazelcast__hazelcast-spring__version>3.9.4</m:dependency.management__com.hazelcast__hazelcast-spring__version>
+		<m:dependency.management__com.querydsl__querydsl-core__version>4.1.4</m:dependency.management__com.querydsl__querydsl-core__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-jvm__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-jvm__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-neo4j__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-neo4j__version>
+		<m:dependency.management__org.apache.kafka__connect-json__version>1.0.2</m:dependency.management__org.apache.kafka__connect-json__version>
+		<m:dependency.management__org.hibernate__hibernate-proxool__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-proxool__version>
+		<m:properties__javax-cache.version>1.1.0</m:properties__javax-cache.version>
+		<m:dependency.management__org.slf4j__slf4j-jdk14__version>1.7.25</m:dependency.management__org.slf4j__slf4j-jdk14__version>
+		<m:properties__servlet-api.version>3.1.0</m:properties__servlet-api.version>
+		<m:dependency.management__io.undertow__undertow-websockets-jsr__version>1.4.25.Final</m:dependency.management__io.undertow__undertow-websockets-jsr__version>
+		<m:dependency.management__com.timgroup__java-statsd-client__version>3.1.0</m:dependency.management__com.timgroup__java-statsd-client__version>
+		<m:properties__maven-failsafe-plugin.version>2.21.0</m:properties__maven-failsafe-plugin.version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-entity-filtering__version>2.26</m:dependency.management__org.glassfish.jersey.ext__jersey-entity-filtering__version>
+		<m:dependency.management__com.fasterxml__classmate__version>1.3.4</m:dependency.management__com.fasterxml__classmate__version>
+		<m:dependency.management__javax.json__javax.json-api__version>1.1.2</m:dependency.management__javax.json__javax.json-api__version>
+		<m:dependency.management__org.infinispan__infinispan-scripting__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-scripting__version>
+		<m:properties__solr.version>6.6.5</m:properties__solr.version>
+		<m:properties__jmustache.version>1.14</m:properties__jmustache.version>
+		<m:properties__nekohtml.version>1.9.22</m:properties__nekohtml.version>
+		<m:dependency.management__commons-pool__commons-pool__version>1.6</m:dependency.management__commons-pool__commons-pool__version>
+		<m:dependency.management__org.seleniumhq.selenium__selenium-support__version>3.9.1</m:dependency.management__org.seleniumhq.selenium__selenium-support__version>
+		<m:properties__hazelcast.version>3.9.4</m:properties__hazelcast.version>
+		<m:properties__maven-deploy-plugin.version>2.8.2</m:properties__maven-deploy-plugin.version>
+		<m:properties__javax-jaxb.version>2.3.0</m:properties__javax-jaxb.version>
+		<m:dependency.management__org.glassfish__javax.el__version>3.0.0</m:dependency.management__org.glassfish__javax.el__version>
+		<m:properties__maven-resources-plugin.version>3.0.2</m:properties__maven-resources-plugin.version>
+		<m:dependency.management__com.atomikos__transactions-jdbc__version>4.0.6</m:dependency.management__com.atomikos__transactions-jdbc__version>
+		<m:properties__spring-plugin.version>1.2.0.RELEASE</m:properties__spring-plugin.version>
+		<m:properties__undertow.version>1.4.25.Final</m:properties__undertow.version>
+		<m:dependency.management__io.rest-assured__json-path__version>3.0.7</m:dependency.management__io.rest-assured__json-path__version>
+		<m:dependency.management__org.glassfish.jersey.containers__jersey-container-servlet__version>2.26</m:dependency.management__org.glassfish.jersey.containers__jersey-container-servlet__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-jersey__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-jersey__version>
+		<m:dependency.management__org.codehaus.groovy__groovy-jsr223__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-jsr223__version>
+		<m:dependency.management__com.atomikos__transactions-jms__version>4.0.6</m:dependency.management__com.atomikos__transactions-jms__version>
+		<m:dependency.management__org.reactivestreams__reactive-streams__version>1.0.2</m:dependency.management__org.reactivestreams__reactive-streams__version>
+		<m:properties__flyway.version>5.0.7</m:properties__flyway.version>
+		<m:properties__spring-kafka.version>2.1.10.RELEASE</m:properties__spring-kafka.version>
+		<m:dependency.management__net.sourceforge.htmlunit__htmlunit__version>2.29</m:dependency.management__net.sourceforge.htmlunit__htmlunit__version>
+		<m:properties__ehcache3.version>3.5.2</m:properties__ehcache3.version>
+		<m:dependency.management__com.datastax.cassandra__cassandra-driver-core__version>3.4.0</m:dependency.management__com.datastax.cassandra__cassandra-driver-core__version>
+		<m:dependency.management__com.unboundid__unboundid-ldapsdk__version>4.0.7</m:dependency.management__com.unboundid__unboundid-ldapsdk__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-rest__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-rest__version>
+		<m:dependency.management__org.infinispan__infinispan-cdi-embedded__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-cdi-embedded__version>
+		<m:properties__maven-dependency-plugin.version>3.0.2</m:properties__maven-dependency-plugin.version>
+		<m:dependency.management__org.springframework.batch__spring-batch-core__version>4.0.1.RELEASE</m:dependency.management__org.springframework.batch__spring-batch-core__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-aop__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-aop__version>
+		<m:dependency.management__io.projectreactor__reactor-bom__scope>import</m:dependency.management__io.projectreactor__reactor-bom__scope>
+		<m:properties__maven-war-plugin.version>3.1.0</m:properties__maven-war-plugin.version>
+		<m:properties__hamcrest.version>1.3</m:properties__hamcrest.version>
+		<m:dependency.management__org.codehaus.groovy__groovy-groovysh__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-groovysh__version>
+		<m:dependency.management__org.apache.activemq__activemq-ra__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-ra__version>
+		<m:dependency.management__org.eclipse.jetty__jetty-bom__version>9.4.12.v20180830</m:dependency.management__org.eclipse.jetty__jetty-bom__version>
+		<m:dependency.management__org.springframework.ldap__spring-ldap-ldif-core__version>2.3.2.RELEASE</m:dependency.management__org.springframework.ldap__spring-ldap-ldif-core__version>
+		<m:properties__nio-multipart-parser.version>1.1.0</m:properties__nio-multipart-parser.version>
+		<m:properties__sendgrid.version>4.1.2</m:properties__sendgrid.version>
+		<m:properties__maven-shade-plugin.version>2.4.3</m:properties__maven-shade-plugin.version>
+		<m:dependency.management__org.apache.solr__solr-clustering__version>6.6.5</m:dependency.management__org.apache.solr__solr-clustering__version>
+		<m:dependency.management__org.glassfish.jersey.core__jersey-server__version>2.26</m:dependency.management__org.glassfish.jersey.core__jersey-server__version>
+		<m:dependency.management__org.springframework.amqp__spring-rabbit-test__version>2.0.6.RELEASE</m:dependency.management__org.springframework.amqp__spring-rabbit-test__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-json__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-json__version>
+		<m:dependency.management__org.apache.httpcomponents__httpclient-win__version>4.5.6</m:dependency.management__org.apache.httpcomponents__httpclient-win__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-properties-migrator__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-properties-migrator__version>
+		<m:dependency.management__org.codehaus.janino__janino__version>3.0.9</m:dependency.management__org.codehaus.janino__janino__version>
+		<m:dependency.management__org.infinispan__infinispan-commons__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-commons__version>
+		<m:dependency.management__org.hibernate__hibernate-spatial__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-spatial__version>
+		<m:properties__maven-antrun-plugin.version>1.8</m:properties__maven-antrun-plugin.version>
+		<m:dependency.management__javax.money__money-api__version>1.0.3</m:dependency.management__javax.money__money-api__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-thymeleaf__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-thymeleaf__version>
+		<m:dependency.management__org.apache.solr__solr-test-framework__version>6.6.5</m:dependency.management__org.apache.solr__solr-test-framework__version>
+		<m:dependency.management__org.hibernate__hibernate-infinispan__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-infinispan__version>
+		<m:dependency.management__org.webjars__webjars-locator-core__version>0.35</m:dependency.management__org.webjars__webjars-locator-core__version>
+		<m:properties__jackson.version>2.9.6</m:properties__jackson.version>
+		<m:dependency.management__io.undertow__undertow-servlet__version>1.4.25.Final</m:dependency.management__io.undertow__undertow-servlet__version>
+		<m:dependency.management__org.seleniumhq.selenium__selenium-java__version>3.9.1</m:dependency.management__org.seleniumhq.selenium__selenium-java__version>
+		<m:dependency.management__org.slf4j__log4j-over-slf4j__version>1.7.25</m:dependency.management__org.slf4j__log4j-over-slf4j__version>
+		<m:properties__javax-validation.version>2.0.1.Final</m:properties__javax-validation.version>
+		<m:properties__maven-eclipse-plugin.version>2.10</m:properties__maven-eclipse-plugin.version>
+		<m:properties__javax-jsonb.version>1.0</m:properties__javax-jsonb.version>
+		<m:dependency.management__org.infinispan__infinispan-server-websocket__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-server-websocket__version>
+		<m:dependency.management__org.hibernate__hibernate-ehcache__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-ehcache__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-jaxb__version>2.26</m:dependency.management__org.glassfish.jersey.media__jersey-media-jaxb__version>
+		<m:dependency.management__org.hibernate__hibernate-core__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-core__version>
+		<m:properties__spring-hateoas.version>0.25.0.RELEASE</m:properties__spring-hateoas.version>
+		<m:dependency.management__org.apache.activemq__activemq-partition__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-partition__version>
+		<m:dependency.management__org.apache.activemq__artemis-server__version>2.4.0</m:dependency.management__org.apache.activemq__artemis-server__version>
+		<m:dependency.management__org.webjars__hal-browser__version>3325375</m:dependency.management__org.webjars__hal-browser__version>
+		<m:properties__johnzon-jsonb.version>1.1.9</m:properties__johnzon-jsonb.version>
+		<m:dependency.management__org.apache.tomcat__tomcat-jsp-api__version>8.5.34</m:dependency.management__org.apache.tomcat__tomcat-jsp-api__version>
+		<m:dependency.management__org.influxdb__influxdb-java__version>2.9</m:dependency.management__org.influxdb__influxdb-java__version>
+		<m:dependency.management__org.mongodb__mongodb-driver-reactivestreams__version>1.7.1</m:dependency.management__org.mongodb__mongodb-driver-reactivestreams__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-couchbase__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-couchbase__version>
+		<m:dependency.management__org.neo4j__neo4j-ogm-http-driver__version>3.1.2</m:dependency.management__org.neo4j__neo4j-ogm-http-driver__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-test__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-test__version>
+		<m:dependency.management__io.rest-assured__rest-assured__version>3.0.7</m:dependency.management__io.rest-assured__rest-assured__version>
+		<m:properties__narayana.version>5.8.2.Final</m:properties__narayana.version>
+		<m:dependency.management__org.aspectj__aspectjtools__version>1.8.13</m:dependency.management__org.aspectj__aspectjtools__version>
+		<m:dependency.management__org.seleniumhq.selenium__selenium-ie-driver__version>3.9.1</m:dependency.management__org.seleniumhq.selenium__selenium-ie-driver__version>
+		<m:dependency.management__com.jayway.jsonpath__json-path__version>2.4.0</m:dependency.management__com.jayway.jsonpath__json-path__version>
+		<m:dependency.management__com.atomikos__transactions-jta__version>4.0.6</m:dependency.management__com.atomikos__transactions-jta__version>
+		<m:dependency.management__com.querydsl__querydsl-apt__version>4.1.4</m:dependency.management__com.querydsl__querydsl-apt__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-jetty9-legacy__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-jetty9-legacy__version>
+		<m:dependency.management__org.infinispan__infinispan-spring4-common__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-spring4-common__version>
+		<m:properties__maven-source-plugin.version>3.0.1</m:properties__maven-source-plugin.version>
+		<m:dependency.management__org.neo4j__neo4j-ogm-bolt-driver__version>3.1.2</m:dependency.management__org.neo4j__neo4j-ogm-bolt-driver__version>
+		<m:properties__spring-session-bom.version>Apple-SR5</m:properties__spring-session-bom.version>
+		<m:dependency.management__io.micrometer__micrometer-registry-signalfx__version>1.0.6</m:dependency.management__io.micrometer__micrometer-registry-signalfx__version>
+		<m:properties__maven-compiler-plugin.version>3.7.0</m:properties__maven-compiler-plugin.version>
+		<m:properties__jaybird.version>3.0.5</m:properties__jaybird.version>
+		<m:dependency.management__javax.validation__validation-api__version>2.0.1.Final</m:dependency.management__javax.validation__validation-api__version>
+		<m:dependency.management__org.codehaus.groovy__groovy-test__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-test__version>
+		<m:dependency.management__org.apache.activemq__activemq-http__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-http__version>
+		<m:dependency.management__io.rest-assured__spring-mock-mvc__version>3.0.7</m:dependency.management__io.rest-assured__spring-mock-mvc__version>
+		<m:dependency.management__org.apache.activemq__activemq-leveldb-store__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-leveldb-store__version>
+		<m:dependency.management__org.mortbay.jasper__apache-el__version>8.5.33</m:dependency.management__org.mortbay.jasper__apache-el__version>
+		<m:dependency.management__org.infinispan__infinispan-embedded__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-embedded__version>
+		<m:properties__mariadb.version>2.2.6</m:properties__mariadb.version>
+		<m:properties__spring-batch.version>4.0.1.RELEASE</m:properties__spring-batch.version>
+		<m:dependency.management__org.apache.derby__derby__version>10.14.2.0</m:dependency.management__org.apache.derby__derby__version>
+		<m:dependency.management__org.springframework.kafka__spring-kafka__version>2.1.10.RELEASE</m:dependency.management__org.springframework.kafka__spring-kafka__version>
+		<m:properties__javax-jms.version>2.0.1</m:properties__javax-jms.version>
+		<m:dependency.management__org.codehaus.btm__btm__version>2.1.4</m:dependency.management__org.codehaus.btm__btm__version>
+		<m:dependency.management__org.springframework.boot__spring-boot__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot__version>
+		<m:dependency.management__ch.qos.logback__logback-classic__version>1.2.3</m:dependency.management__ch.qos.logback__logback-classic__version>
+		<m:dependency.management__org.springframework.batch__spring-batch-test__version>4.0.1.RELEASE</m:dependency.management__org.springframework.batch__spring-batch-test__version>
+		<m:dependency.management__dom4j__dom4j__version>1.6.1</m:dependency.management__dom4j__dom4j__version>
+		<m:dependency.management__com.fasterxml.jackson__jackson-bom__version>2.9.6</m:dependency.management__com.fasterxml.jackson__jackson-bom__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-activemq__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-activemq__version>
+		<m:dependency.management__org.apache.activemq__activemq-log4j-appender__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-log4j-appender__version>
+		<m:dependency.management__org.jboss.logging__jboss-logging__version>3.3.2.Final</m:dependency.management__org.jboss.logging__jboss-logging__version>
+		<m:properties__junit-jupiter.version>5.1.1</m:properties__junit-jupiter.version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-jetty9__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-jetty9__version>
+		<m:dependency.management__org.apache.httpcomponents__httpmime__version>4.5.6</m:dependency.management__org.apache.httpcomponents__httpmime__version>
+		<m:dependency.management__org.infinispan__infinispan-remote__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-remote__version>
+		<m:properties__mockito.version>2.15.0</m:properties__mockito.version>
+		<m:dependency.management__net.java.dev.jna__jna-platform__version>4.5.2</m:dependency.management__net.java.dev.jna__jna-platform__version>
+		<m:dependency.management__org.apache.activemq__artemis-commons__version>2.4.0</m:dependency.management__org.apache.activemq__artemis-commons__version>
+		<m:dependency.management__org.hibernate.validator__hibernate-validator__version>6.0.12.Final</m:dependency.management__org.hibernate.validator__hibernate-validator__version>
+		<m:dependency.management__org.springframework.ldap__spring-ldap-odm__version>2.3.2.RELEASE</m:dependency.management__org.springframework.ldap__spring-ldap-odm__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-jta-atomikos__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-jta-atomikos__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-websocket__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-websocket__version>
+		<m:dependency.management__antlr__antlr__version>2.7.7</m:dependency.management__antlr__antlr__version>
+		<m:dependency.management__org.apache.kafka__kafka_2.11__version>1.0.2</m:dependency.management__org.apache.kafka__kafka_2.11__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-mustache__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-mustache__version>
+		<m:properties__activemq.version>5.15.6</m:properties__activemq.version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-bean-validation__version>2.26</m:dependency.management__org.glassfish.jersey.ext__jersey-bean-validation__version>
+		<m:dependency.management__org.springframework.amqp__spring-rabbit__version>2.0.6.RELEASE</m:dependency.management__org.springframework.amqp__spring-rabbit__version>
+		<m:properties__commons-dbcp2.version>2.2.0</m:properties__commons-dbcp2.version>
+		<m:dependency.management__org.apache.activemq__activemq-jdbc-store__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-jdbc-store__version>
+		<m:properties__mongo-driver-reactivestreams.version>1.7.1</m:properties__mongo-driver-reactivestreams.version>
+		<m:dependency.management__org.springframework.hateoas__spring-hateoas__version>0.25.0.RELEASE</m:dependency.management__org.springframework.hateoas__spring-hateoas__version>
+		<m:dependency.management__org.xmlunit__xmlunit-matchers__version>2.5.1</m:dependency.management__org.xmlunit__xmlunit-matchers__version>
+		<m:dependency.management__org.infinispan__infinispan-server-memcached__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-server-memcached__version>
+		<m:properties__xmlunit2.version>2.5.1</m:properties__xmlunit2.version>
+		<m:dependency.management__org.infinispan__infinispan-lucene-directory__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-lucene-directory__version>
+		<m:dependency.management__net.sf.ehcache__ehcache__version>2.10.5</m:dependency.management__net.sf.ehcache__ehcache__version>
+		<m:dependency.management__com.google.code.gson__gson__version>2.8.5</m:dependency.management__com.google.code.gson__gson__version>
+		<m:dependency.management__org.springframework.restdocs__spring-restdocs-asciidoctor__version>2.0.2.RELEASE</m:dependency.management__org.springframework.restdocs__spring-restdocs-asciidoctor__version>
+		<m:dependency.management__org.apache.activemq__activemq-osgi__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-osgi__version>
+		<m:properties__maven-invoker-plugin.version>3.1.0</m:properties__maven-invoker-plugin.version>
+		<m:dependency.management__org.infinispan__infinispan-server-router__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-server-router__version>
+		<m:properties__unboundid-ldapsdk.version>4.0.7</m:properties__unboundid-ldapsdk.version>
+		<m:properties__jetty-el.version>8.5.33</m:properties__jetty-el.version>
+		<m:dependency.management__org.jboss.narayana.jta__jta__version>5.8.2.Final</m:dependency.management__org.jboss.narayana.jta__jta__version>
+		<m:dependency.management__org.springframework.integration__spring-integration-bom__version>5.0.8.RELEASE</m:dependency.management__org.springframework.integration__spring-integration-bom__version>
+		<m:properties__rxjava2.version>2.1.17</m:properties__rxjava2.version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-graphite__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-graphite__version>
+		<m:dependency.management__org.jboss__jboss-transaction-spi__version>7.6.0.Final</m:dependency.management__org.jboss__jboss-transaction-spi__version>
+		<m:dependency.management__org.springframework.integration__spring-integration-bom__scope>import</m:dependency.management__org.springframework.integration__spring-integration-bom__scope>
+		<m:dependency.management__org.apache.solr__solr-core__version>6.6.5</m:dependency.management__org.apache.solr__solr-core__version>
+		<m:dependency.management__wsdl4j__wsdl4j__version>1.6.3</m:dependency.management__wsdl4j__wsdl4j__version>
+		<m:properties__logback.version>1.2.3</m:properties__logback.version>
+		<m:dependency.management__org.infinispan__infinispan-cachestore-rest__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-cachestore-rest__version>
+		<m:dependency.management__org.mongodb__mongodb-driver-async__version>3.6.4</m:dependency.management__org.mongodb__mongodb-driver-async__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-log4j__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-log4j__version>
+		<m:dependency.management__mysql__mysql-connector-java__version>5.1.47</m:dependency.management__mysql__mysql-connector-java__version>
+		<m:dependency.management__org.neo4j__neo4j-ogm-api__version>3.1.2</m:dependency.management__org.neo4j__neo4j-ogm-api__version>
+		<m:dependency.management__org.apache.activemq__activemq-blueprint__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-blueprint__version>
+		<m:properties__kafka.version>1.0.2</m:properties__kafka.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-amqp__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-amqp__version>
+		<m:dependency.management__org.glassfish.jersey.core__jersey-common__version>2.26</m:dependency.management__org.glassfish.jersey.core__jersey-common__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-autoconfigure-processor__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-autoconfigure-processor__version>
+		<m:properties__kotlin.version>1.2.51</m:properties__kotlin.version>
+		<m:dependency.management__ch.qos.logback__logback-core__version>1.2.3</m:dependency.management__ch.qos.logback__logback-core__version>
+		<m:dependency.management__org.infinispan__infinispan-embedded-query__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-embedded-query__version>
+		<m:properties__maven-install-plugin.version>2.5.2</m:properties__maven-install-plugin.version>
+		<m:properties__glassfish-el.version>3.0.0</m:properties__glassfish-el.version>
+		<m:dependency.management__org.apache.activemq__artemis-journal__version>2.4.0</m:dependency.management__org.apache.activemq__artemis-journal__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-artemis__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-artemis__version>
+		<m:dependency.management__org.apache.tomcat.embed__tomcat-embed-websocket__version>8.5.34</m:dependency.management__org.apache.tomcat.embed__tomcat-embed-websocket__version>
+		<m:dependency.management__io.micrometer__micrometer-registry-graphite__version>1.0.6</m:dependency.management__io.micrometer__micrometer-registry-graphite__version>
+		<m:dependency.management__io.rest-assured__json-schema-validator__version>3.0.7</m:dependency.management__io.rest-assured__json-schema-validator__version>
+		<m:properties__maven-help-plugin.version>2.2</m:properties__maven-help-plugin.version>
+		<m:dependency.management__org.codehaus.groovy__groovy-xml__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-xml__version>
+		<m:properties__httpasyncclient.version>4.1.4</m:properties__httpasyncclient.version>
+		<m:dependency.management__org.apache.activemq__artemis-native__version>2.4.0</m:dependency.management__org.apache.activemq__artemis-native__version>
+		<m:dependency.management__org.infinispan__infinispan-cachestore-jpa__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-cachestore-jpa__version>
+		<m:dependency.management__org.junit.vintage__junit-vintage-engine__version>5.1.1</m:dependency.management__org.junit.vintage__junit-vintage-engine__version>
+		<m:dependency.management__org.hsqldb__hsqldb__version>2.4.1</m:dependency.management__org.hsqldb__hsqldb__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-cache__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-cache__version>
+		<m:dependency.management__io.micrometer__micrometer-registry-atlas__version>1.0.6</m:dependency.management__io.micrometer__micrometer-registry-atlas__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-json-jackson__version>2.26</m:dependency.management__org.glassfish.jersey.media__jersey-media-json-jackson__version>
+		<m:properties__jsonassert.version>1.5.0</m:properties__jsonassert.version>
+		<m:dependency.management__io.projectreactor__reactor-bom__version>Bismuth-SR11</m:dependency.management__io.projectreactor__reactor-bom__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-groovy-templates__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-groovy-templates__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-annotation__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-annotation__version>
+		<m:dependency.management__org.infinispan__infinispan-tasks__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-tasks__version>
+		<m:properties__xml-apis.version>1.4.01</m:properties__xml-apis.version>
+		<m:dependency.management__com.samskivert__jmustache__version>1.14</m:dependency.management__com.samskivert__jmustache__version>
+		<m:dependency.management__org.codehaus.groovy__groovy-all__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-all__version>
+		<m:dependency.management__com.hazelcast__hazelcast-hibernate52__version>1.2.3</m:dependency.management__com.hazelcast__hazelcast-hibernate52__version>
+		<m:dependency.management__org.apache.kafka__kafka-tools__version>1.0.2</m:dependency.management__org.apache.kafka__kafka-tools__version>
+		<m:dependency.management__org.slf4j__slf4j-api__version>1.7.25</m:dependency.management__org.slf4j__slf4j-api__version>
+		<m:dependency.management__org.slf4j__slf4j-log4j12__version>1.7.25</m:dependency.management__org.slf4j__slf4j-log4j12__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-jersey__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-jersey__version>
+		<m:dependency.management__org.springframework.ldap__spring-ldap-test__version>2.3.2.RELEASE</m:dependency.management__org.springframework.ldap__spring-ldap-test__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-redis-reactive__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-redis-reactive__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-jre8__version>1.2.51</m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-jre8__version>
+		<m:dependency.management__org.yaml__snakeyaml__version>1.19</m:dependency.management__org.yaml__snakeyaml__version>
+		<m:dependency.management__org.apache.activemq__activemq-openwire-legacy__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-openwire-legacy__version>
+		<m:dependency.management__org.infinispan__infinispan-cdi-remote__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-cdi-remote__version>
+		<m:dependency.management__org.infinispan__infinispan-server-hotrod__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-server-hotrod__version>
+		<m:dependency.management__org.jooq__jooq__version>3.10.8</m:dependency.management__org.jooq__jooq__version>
+		<m:dependency.management__org.ehcache__ehcache-clustered__version>3.5.2</m:dependency.management__org.ehcache__ehcache-clustered__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-hateoas__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-hateoas__version>
+		<m:dependency.management__org.skyscreamer__jsonassert__version>1.5.0</m:dependency.management__org.skyscreamer__jsonassert__version>
+		<m:properties__couchbase-cache-client.version>2.1.0</m:properties__couchbase-cache-client.version>
+		<m:dependency.management__io.micrometer__micrometer-registry-wavefront__version>1.0.6</m:dependency.management__io.micrometer__micrometer-registry-wavefront__version>
+		<m:properties__dom4j.version>1.6.1</m:properties__dom4j.version>
+		<m:dependency.management__org.thymeleaf__thymeleaf-spring5__version>3.0.9.RELEASE</m:dependency.management__org.thymeleaf__thymeleaf-spring5__version>
+		<m:properties__mssql-jdbc.version>6.2.2.jre8</m:properties__mssql-jdbc.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-elasticsearch__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-elasticsearch__version>
+		<m:properties__maven-jar-plugin.version>3.0.2</m:properties__maven-jar-plugin.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-devtools__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-devtools__version>
+		<m:dependency.management__com.zaxxer__HikariCP__version>2.7.9</m:dependency.management__com.zaxxer__HikariCP__version>
+		<m:dependency.management__org.seleniumhq.selenium__selenium-remote-driver__version>3.9.1</m:dependency.management__org.seleniumhq.selenium__selenium-remote-driver__version>
+		<m:dependency.management__org.springframework.security__spring-security-bom__version>5.0.8.RELEASE</m:dependency.management__org.springframework.security__spring-security-bom__version>
+		<m:properties__joda-time.version>2.9.9</m:properties__joda-time.version>
+		<m:dependency.management__org.springframework.kafka__spring-kafka-test__version>2.1.10.RELEASE</m:dependency.management__org.springframework.kafka__spring-kafka-test__version>
+		<m:dependency.management__org.apache.httpcomponents__httpclient-osgi__version>4.5.6</m:dependency.management__org.apache.httpcomponents__httpclient-osgi__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-healthchecks__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-healthchecks__version>
+		<m:properties__atomikos.version>4.0.6</m:properties__atomikos.version>
+		<m:dependency.management__io.reactivex.rxjava2__rxjava__version>2.1.17</m:dependency.management__io.reactivex.rxjava2__rxjava__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-mongodb__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-mongodb__version>
+		<m:properties__hikaricp.version>2.7.9</m:properties__hikaricp.version>
+		<m:dependency.management__org.apache.kafka__connect-file__version>1.0.2</m:dependency.management__org.apache.kafka__connect-file__version>
+		<m:dependency.management__org.apache.kafka__kafka-clients__version>1.0.2</m:dependency.management__org.apache.kafka__kafka-clients__version>
+		<m:dependency.management__org.codehaus.groovy__groovy__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-couchbase-reactive__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-couchbase-reactive__version>
+		<m:dependency.management__org.seleniumhq.selenium__selenium-chrome-driver__version>3.9.1</m:dependency.management__org.seleniumhq.selenium__selenium-chrome-driver__version>
+		<m:properties__mysql.version>5.1.47</m:properties__mysql.version>
+		<m:dependency.management__com.googlecode.json-simple__json-simple__version>1.1.1</m:dependency.management__com.googlecode.json-simple__json-simple__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-mongodb-reactive__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-mongodb-reactive__version>
+		<m:properties__mongodb.version>3.6.4</m:properties__mongodb.version>
+		<m:dependency.management__org.apache.httpcomponents__httpcore__version>4.4.10</m:dependency.management__org.apache.httpcomponents__httpcore__version>
+		<m:dependency.management__org.infinispan__infinispan-osgi__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-osgi__version>
+		<m:dependency.management__org.aspectj__aspectjrt__version>1.8.13</m:dependency.management__org.aspectj__aspectjrt__version>
+		<m:dependency.management__org.springframework.plugin__spring-plugin-core__version>1.2.0.RELEASE</m:dependency.management__org.springframework.plugin__spring-plugin-core__version>
+		<m:dependency.management__org.springframework.ws__spring-ws-support__version>3.0.3.RELEASE</m:dependency.management__org.springframework.ws__spring-ws-support__version>
+		<m:dependency.management__com.github.mxab.thymeleaf.extras__thymeleaf-extras-data-attribute__version>2.0.1</m:dependency.management__com.github.mxab.thymeleaf.extras__thymeleaf-extras-data-attribute__version>
+		<m:dependency.management__org.springframework.restdocs__spring-restdocs-mockmvc__version>2.0.2.RELEASE</m:dependency.management__org.springframework.restdocs__spring-restdocs-mockmvc__version>
+		<m:properties__couchbase-client.version>2.5.9</m:properties__couchbase-client.version>
+		<m:properties__javax-mail.version>1.6.2</m:properties__javax-mail.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-jta-bitronix__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-jta-bitronix__version>
+		<m:dependency.management__org.jolokia__jolokia-core__version>1.5.0</m:dependency.management__org.jolokia__jolokia-core__version>
+		<m:dependency.management__org.jboss.narayana.jta__jdbc__version>5.8.2.Final</m:dependency.management__org.jboss.narayana.jta__jdbc__version>
+		<m:dependency.management__org.apache.tomcat__tomcat-jdbc__version>8.5.34</m:dependency.management__org.apache.tomcat__tomcat-jdbc__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-configuration-metadata__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-configuration-metadata__version>
+		<m:dependency.management__org.apache.johnzon__johnzon-jsonb__version>1.1.9</m:dependency.management__org.apache.johnzon__johnzon-jsonb__version>
+		<m:dependency.management__org.springframework.amqp__spring-amqp__version>2.0.6.RELEASE</m:dependency.management__org.springframework.amqp__spring-amqp__version>
+		<m:dependency.management__com.datastax.cassandra__cassandra-driver-mapping__version>3.4.0</m:dependency.management__com.datastax.cassandra__cassandra-driver-mapping__version>
+		<m:dependency.management__org.apache.activemq__activemq-console__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-console__version>
+		<m:dependency.management__org.apache.activemq__activemq-stomp__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-stomp__version>
+		<m:properties__classmate.version>1.3.4</m:properties__classmate.version>
+		<m:properties__appengine-sdk.version>1.9.64</m:properties__appengine-sdk.version>
+		<m:properties__cassandra-driver.version>3.4.0</m:properties__cassandra-driver.version>
+		<m:dependency.management__org.apache.activemq__activemq-web__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-web__version>
+		<m:properties__rxjava.version>1.3.8</m:properties__rxjava.version>
+		<m:dependency.management__org.slf4j__slf4j-jcl__version>1.7.25</m:dependency.management__org.slf4j__slf4j-jcl__version>
+		<m:dependency.management__org.springframework.security__spring-security-bom__scope>import</m:dependency.management__org.springframework.security__spring-security-bom__scope>
+		<m:properties__assertj.version>3.9.1</m:properties__assertj.version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-core__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-core__version>
+		<m:dependency.management__org.junit.jupiter__junit-jupiter-params__version>5.1.1</m:dependency.management__org.junit.jupiter__junit-jupiter-params__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-httpasyncclient__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-httpasyncclient__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-reflect__version>1.2.51</m:dependency.management__org.jetbrains.kotlin__kotlin-reflect__version>
+		<m:properties__maven-assembly-plugin.version>3.1.0</m:properties__maven-assembly-plugin.version>
+		<m:dependency.management__org.apache.activemq__activemq-camel__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-camel__version>
+		<m:dependency.management__org.apache.solr__solr-dataimporthandler-extras__version>6.6.5</m:dependency.management__org.apache.solr__solr-dataimporthandler-extras__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-jdk8__version>1.2.51</m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-jdk8__version>
+		<m:properties__reactor-bom.version>Bismuth-SR11</m:properties__reactor-bom.version>
+		<m:dependency.management__org.springframework.restdocs__spring-restdocs-core__version>2.0.2.RELEASE</m:dependency.management__org.springframework.restdocs__spring-restdocs-core__version>
+		<m:properties__tomcat.version>8.5.34</m:properties__tomcat.version>
+		<m:dependency.management__org.slf4j__jcl-over-slf4j__version>1.7.25</m:dependency.management__org.slf4j__jcl-over-slf4j__version>
+		<m:properties__javax-money.version>1.0.3</m:properties__javax-money.version>
+		<m:dependency.management__org.apache.activemq__activemq-karaf__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-karaf__version>
+		<m:properties__junit-platform.version>1.1.0</m:properties__junit-platform.version>
+		<m:dependency.management__org.codehaus.groovy__groovy-servlet__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-servlet__version>
+		<m:dependency.management__org.eclipse.jetty.orbit__javax.servlet.jsp__version>2.2.0.v201112011158</m:dependency.management__org.eclipse.jetty.orbit__javax.servlet.jsp__version>
+		<m:dependency.management__org.apache.tomcat__tomcat-catalina-jmx-remote__version>8.5.34</m:dependency.management__org.apache.tomcat__tomcat-catalina-jmx-remote__version>
+		<m:properties__commons-pool2.version>2.5.0</m:properties__commons-pool2.version>
+		<m:dependency.management__org.codehaus.groovy__groovy-json__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-json__version>
+		<m:dependency.management__org.mockito__mockito-core__version>2.15.0</m:dependency.management__org.mockito__mockito-core__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-actuator__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-actuator__version>
+		<m:dependency.management__org.slf4j__slf4j-simple__version>1.7.25</m:dependency.management__org.slf4j__slf4j-simple__version>
+		<m:dependency.management__org.apache.activemq__activemq-shiro__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-shiro__version>
+		<m:dependency.management__io.micrometer__micrometer-registry-cloudwatch__version>1.0.6</m:dependency.management__io.micrometer__micrometer-registry-cloudwatch__version>
+		<m:dependency.management__org.hibernate__hibernate-jpamodelgen__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-jpamodelgen__version>
+		<m:properties__neo4j-ogm.version>3.1.2</m:properties__neo4j-ogm.version>
+		<m:properties__commons-pool.version>1.6</m:properties__commons-pool.version>
+		<m:dependency.management__org.apache.activemq__artemis-core-client__version>2.4.0</m:dependency.management__org.apache.activemq__artemis-core-client__version>
+		<m:properties__snakeyaml.version>1.19</m:properties__snakeyaml.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-ldap__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-ldap__version>
+		<m:dependency.management__junit__junit__version>4.12</m:dependency.management__junit__junit__version>
+		<m:dependency.management__org.apache.solr__solr-solrj__version>6.6.5</m:dependency.management__org.apache.solr__solr-solrj__version>
+		<m:dependency.management__org.infinispan__infinispan-objectfilter__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-objectfilter__version>
+		<m:dependency.management__org.apache.activemq__artemis-selector__version>2.4.0</m:dependency.management__org.apache.activemq__artemis-selector__version>
+		<m:properties__commons-codec.version>1.11</m:properties__commons-codec.version>
+		<m:properties__spring-security.version>5.0.8.RELEASE</m:properties__spring-security.version>
+		<m:dependency.management__org.infinispan__infinispan-remote-query-client__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-remote-query-client__version>
+		<m:dependency.management__org.seleniumhq.selenium__selenium-firefox-driver__version>3.9.1</m:dependency.management__org.seleniumhq.selenium__selenium-firefox-driver__version>
+		<m:properties__spring-ws.version>3.0.3.RELEASE</m:properties__spring-ws.version>
+		<m:dependency.management__org.slf4j__slf4j-nop__version>1.7.25</m:dependency.management__org.slf4j__slf4j-nop__version>
+		<m:dependency.management__com.couchbase.client__couchbase-spring-cache__version>2.1.0</m:dependency.management__com.couchbase.client__couchbase-spring-cache__version>
+		<m:dependency.management__org.infinispan__infinispan-query__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-query__version>
+		<m:dependency.management__org.hibernate__hibernate-java8__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-java8__version>
+		<m:dependency.management__javax.json.bind__javax.json.bind-api__version>1.0</m:dependency.management__javax.json.bind__javax.json.bind-api__version>
+		<m:dependency.management__io.micrometer__micrometer-registry-new-relic__version>1.0.6</m:dependency.management__io.micrometer__micrometer-registry-new-relic__version>
+		<m:dependency.management__org.springframework__spring-framework-bom__scope>import</m:dependency.management__org.springframework__spring-framework-bom__scope>
+		<m:dependency.management__org.slf4j__jul-to-slf4j__version>1.7.25</m:dependency.management__org.slf4j__jul-to-slf4j__version>
+		<m:dependency.management__org.infinispan__infinispan-remote-query-server__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-remote-query-server__version>
+		<m:dependency.management__com.h2database__h2__version>1.4.197</m:dependency.management__com.h2database__h2__version>
+		<m:properties__jersey.version>2.26</m:properties__jersey.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-security__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-security__version>
+		<m:dependency.management__org.springframework.ws__spring-xml__version>3.0.3.RELEASE</m:dependency.management__org.springframework.ws__spring-xml__version>
+		<m:properties__thymeleaf-extras-data-attribute.version>2.0.1</m:properties__thymeleaf-extras-data-attribute.version>
+		<m:properties__micrometer.version>1.0.6</m:properties__micrometer.version>
+		<m:dependency.management__javax.servlet__jstl__version>1.2</m:dependency.management__javax.servlet__jstl__version>
+		<m:properties__hsqldb.version>2.4.1</m:properties__hsqldb.version>
+		<m:dependency.management__javax.servlet__javax.servlet-api__version>3.1.0</m:dependency.management__javax.servlet__javax.servlet-api__version>
+		<m:dependency.management__org.springframework.data__spring-data-releasetrain__version>Kay-SR10</m:dependency.management__org.springframework.data__spring-data-releasetrain__version>
+		<m:dependency.management__org.infinispan__infinispan-clustered-counter__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-clustered-counter__version>
+		<m:dependency.management__org.jdom__jdom2__version>2.0.6</m:dependency.management__org.jdom__jdom2__version>
+		<m:dependency.management__org.mockito__mockito-inline__version>2.15.0</m:dependency.management__org.mockito__mockito-inline__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-web-services__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-web-services__version>
+		<m:dependency.management__org.glassfish.jersey.containers__jersey-container-servlet-core__version>2.26</m:dependency.management__org.glassfish.jersey.containers__jersey-container-servlet-core__version>
+		<m:dependency.management__org.apache.activemq__activemq-amqp__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-amqp__version>
+		<m:properties__httpclient.version>4.5.6</m:properties__httpclient.version>
+		<m:properties__jetty-jsp.version>2.2.0.v201112011158</m:properties__jetty-jsp.version>
+		<m:dependency.management__org.codehaus.groovy__groovy-bsf__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-bsf__version>
+		<m:dependency.management__org.springframework.ws__spring-ws-core__version>3.0.3.RELEASE</m:dependency.management__org.springframework.ws__spring-ws-core__version>
+		<m:dependency.management__org.springframework.ldap__spring-ldap-core__version>2.3.2.RELEASE</m:dependency.management__org.springframework.ldap__spring-ldap-core__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-freemarker__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-freemarker__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-data-jpa__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-data-jpa__version>
+		<m:dependency.management__org.apache.activemq__artemis-jms-client__version>2.4.0</m:dependency.management__org.apache.activemq__artemis-jms-client__version>
+		<m:properties__janino.version>3.0.9</m:properties__janino.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-jooq__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-jooq__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-validation__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-validation__version>
+		<m:properties__versions-maven-plugin.version>2.3</m:properties__versions-maven-plugin.version>
+		<m:dependency.management__org.apache.activemq__artemis-amqp-protocol__version>2.4.0</m:dependency.management__org.apache.activemq__artemis-amqp-protocol__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-test__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-test__version>
+		<m:dependency.management__org.infinispan__infinispan-server-core__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-server-core__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-logback__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-logback__version>
+		<m:dependency.management__org.infinispan__infinispan-cachestore-remote__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-cachestore-remote__version>
+		<m:properties__spring-integration.version>5.0.8.RELEASE</m:properties__spring-integration.version>
+		<m:properties__byte-buddy.version>1.7.11</m:properties__byte-buddy.version>
+		<m:dependency.management__com.sun.mail__javax.mail__version>1.6.2</m:dependency.management__com.sun.mail__javax.mail__version>
+		<m:dependency.management__org.springframework__spring-framework-bom__version>5.0.9.RELEASE</m:dependency.management__org.springframework__spring-framework-bom__version>
+		<m:dependency.management__org.infinispan__infinispan-directory-provider__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-directory-provider__version>
+		<m:properties__maven-surefire-plugin.version>2.21.0</m:properties__maven-surefire-plugin.version>
+		<m:dependency.management__org.quartz-scheduler__quartz-jobs__version>2.3.0</m:dependency.management__org.quartz-scheduler__quartz-jobs__version>
+		<m:properties__derby.version>10.14.2.0</m:properties__derby.version>
+		<m:properties__xml-maven-plugin.version>1.0.2</m:properties__xml-maven-plugin.version>
+		<m:dependency.management__org.springframework.ldap__spring-ldap-core-tiger__version>2.3.2.RELEASE</m:dependency.management__org.springframework.ldap__spring-ldap-core-tiger__version>
+		<m:dependency.management__org.infinispan__infinispan-cachestore-leveldb__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-cachestore-leveldb__version>
+		<m:dependency.management__org.seleniumhq.selenium__selenium-opera-driver__version>3.9.1</m:dependency.management__org.seleniumhq.selenium__selenium-opera-driver__version>
+		<m:dependency.management__org.synchronoss.cloud__nio-multipart-parser__version>1.1.0</m:dependency.management__org.synchronoss.cloud__nio-multipart-parser__version>
+		<m:properties__json-path.version>2.4.0</m:properties__json-path.version>
+		<m:dependency.management__org.springframework.cloud__spring-cloud-localconfig-connector__version>2.0.3.RELEASE</m:dependency.management__org.springframework.cloud__spring-cloud-localconfig-connector__version>
+		<m:dependency.management__net.java.dev.jna__jna__version>4.5.2</m:dependency.management__net.java.dev.jna__jna__version>
+		<m:dependency.management__org.hibernate__hibernate-hikaricp__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-hikaricp__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter__version>
+		<m:dependency.management__org.infinispan__infinispan-query-dsl__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-query-dsl__version>
+		<m:dependency.management__org.hibernate__hibernate-c3p0__version>5.2.17.Final</m:dependency.management__org.hibernate__hibernate-c3p0__version>
+		<m:dependency.management__org.apache.activemq__activemq-kahadb-store__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-kahadb-store__version>
+		<m:dependency.management__org.elasticsearch__elasticsearch__version>5.6.11</m:dependency.management__org.elasticsearch__elasticsearch__version>
+		<m:properties__influxdb-java.version>2.9</m:properties__influxdb-java.version>
+		<m:dependency.management__xml-apis__xml-apis__version>1.4.01</m:dependency.management__xml-apis__xml-apis__version>
+		<m:dependency.management__org.projectlombok__lombok__version>1.16.22</m:dependency.management__org.projectlombok__lombok__version>
+		<m:properties__h2.version>1.4.197</m:properties__h2.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-quartz__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-quartz__version>
+		<m:dependency.management__org.springframework.batch__spring-batch-integration__version>4.0.1.RELEASE</m:dependency.management__org.springframework.batch__spring-batch-integration__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-jre7__version>1.2.51</m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-jre7__version>
+		<m:dependency.management__org.quartz-scheduler__quartz__version>2.3.0</m:dependency.management__org.quartz-scheduler__quartz__version>
+		<m:dependency.management__nz.net.ultraq.thymeleaf__thymeleaf-layout-dialect__version>2.3.0</m:dependency.management__nz.net.ultraq.thymeleaf__thymeleaf-layout-dialect__version>
+		<m:properties__jolokia.version>1.5.0</m:properties__jolokia.version>
+		<m:dependency.management__org.infinispan__infinispan-tools__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-tools__version>
+		<m:dependency.management__io.dropwizard.metrics__metrics-ehcache__version>3.2.6</m:dependency.management__io.dropwizard.metrics__metrics-ehcache__version>
+		<m:properties__freemarker.version>2.3.28</m:properties__freemarker.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-webflux__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-webflux__version>
+		<m:dependency.management__org.apache.solr__solr-langid__version>6.6.5</m:dependency.management__org.apache.solr__solr-langid__version>
+		<m:dependency.management__org.elasticsearch.client__transport__version>5.6.11</m:dependency.management__org.elasticsearch.client__transport__version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-json__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-json__version>
+		<m:dependency.management__org.apache.httpcomponents__httpasyncclient__version>4.1.4</m:dependency.management__org.apache.httpcomponents__httpasyncclient__version>
+		<m:dependency.management__org.thymeleaf__thymeleaf__version>3.0.9.RELEASE</m:dependency.management__org.thymeleaf__thymeleaf__version>
+		<m:dependency.management__org.codehaus.groovy__groovy-groovydoc__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-groovydoc__version>
+		<m:dependency.management__org.elasticsearch.distribution.integ-test-zip__elasticsearch__version>5.6.11</m:dependency.management__org.elasticsearch.distribution.integ-test-zip__elasticsearch__version>
+		<m:dependency.management__org.apache.tomcat.embed__tomcat-embed-jasper__version>8.5.34</m:dependency.management__org.apache.tomcat.embed__tomcat-embed-jasper__version>
+		<m:properties__httpcore.version>4.4.10</m:properties__httpcore.version>
+		<m:dependency.management__javax.xml.bind__jaxb-api__version>2.3.0</m:dependency.management__javax.xml.bind__jaxb-api__version>
+		<m:properties__quartz.version>2.3.0</m:properties__quartz.version>
+		<m:dependency.management__org.springframework.cloud__spring-cloud-cloudfoundry-connector__version>2.0.3.RELEASE</m:dependency.management__org.springframework.cloud__spring-cloud-cloudfoundry-connector__version>
+		<m:properties__jaxen.version>1.1.6</m:properties__jaxen.version>
+		<m:dependency.management__org.postgresql__postgresql__version>42.2.5</m:dependency.management__org.postgresql__postgresql__version>
+		<m:properties__lettuce.version>5.0.5.RELEASE</m:properties__lettuce.version>
+		<m:dependency.management__org.codehaus.groovy__groovy-ant__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-ant__version>
+		<m:dependency.management__org.apache.activemq__activemq-spring__version>5.15.6</m:dependency.management__org.apache.activemq__activemq-spring__version>
+		<m:properties__thymeleaf.version>3.0.9.RELEASE</m:properties__thymeleaf.version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib__version>1.2.51</m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib__version>
+		<m:dependency.management__org.apache.solr__solr-cell__version>6.6.5</m:dependency.management__org.apache.solr__solr-cell__version>
+		<m:properties__jest.version>5.3.4</m:properties__jest.version>
+		<m:dependency.management__javax.mail__javax.mail-api__version>1.6.2</m:dependency.management__javax.mail__javax.mail-api__version>
+		<m:properties__hibernate-jpa-2.1-api.version>1.0.2.Final</m:properties__hibernate-jpa-2.1-api.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-actuator-autoconfigure__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-actuator-autoconfigure__version>
+		<m:dependency.management__org.infinispan__infinispan-tree__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-tree__version>
+		<m:properties__elasticsearch.version>5.6.11</m:properties__elasticsearch.version>
+		<m:dependency.management__net.sourceforge.nekohtml__nekohtml__version>1.9.22</m:dependency.management__net.sourceforge.nekohtml__nekohtml__version>
+		<m:properties__jboss-logging.version>3.3.2.Final</m:properties__jboss-logging.version>
+		<m:dependency.management__org.springframework.boot__spring-boot-starter-jta-narayana__version>2.0.5.RELEASE</m:dependency.management__org.springframework.boot__spring-boot-starter-jta-narayana__version>
+		<m:properties__hazelcast-hibernate5.version>1.2.3</m:properties__hazelcast-hibernate5.version>
+		<m:dependency.management__net.bytebuddy__byte-buddy-agent__version>1.7.11</m:dependency.management__net.bytebuddy__byte-buddy-agent__version>
+		<m:properties__git-commit-id-plugin.version>2.2.5</m:properties__git-commit-id-plugin.version>
+		<m:dependency.management__org.eclipse.jetty__jetty-bom__scope>import</m:dependency.management__org.eclipse.jetty__jetty-bom__scope>
+		<m:dependency.management__io.netty__netty-bom__scope>import</m:dependency.management__io.netty__netty-bom__scope>
+		<m:dependency.management__net.sourceforge.jtds__jtds__version>1.3.1</m:dependency.management__net.sourceforge.jtds__jtds__version>
+		<m:dependency.management__org.xerial__sqlite-jdbc__version>3.21.0.1</m:dependency.management__org.xerial__sqlite-jdbc__version>
+		<m:dependency.management__org.thymeleaf.extras__thymeleaf-extras-java8time__version>3.0.1.RELEASE</m:dependency.management__org.thymeleaf.extras__thymeleaf-extras-java8time__version>
+		<m:dependency.management__org.codehaus.groovy__groovy-console__version>2.4.15</m:dependency.management__org.codehaus.groovy__groovy-console__version>
+		<m:dependency.management__org.hibernate.javax.persistence__hibernate-jpa-2.1-api__version>1.0.2.Final</m:dependency.management__org.hibernate.javax.persistence__hibernate-jpa-2.1-api__version>
+		<m:dependency.management__com.querydsl__querydsl-collections__version>4.1.4</m:dependency.management__com.querydsl__querydsl-collections__version>
+		<m:dependency.management__joda-time__joda-time__version>2.9.9</m:dependency.management__joda-time__joda-time__version>
+		<m:dependency.management__org.mariadb.jdbc__mariadb-java-client__version>2.2.6</m:dependency.management__org.mariadb.jdbc__mariadb-java-client__version>
+		<m:properties__dropwizard-metrics.version>3.2.6</m:properties__dropwizard-metrics.version>
+		<m:dependency.management__org.apache.logging.log4j__log4j-bom__version>2.10.0</m:dependency.management__org.apache.logging.log4j__log4j-bom__version>
+		<m:dependency.management__org.infinispan__infinispan-hibernate-cache__version>9.1.7.Final</m:dependency.management__org.infinispan__infinispan-hibernate-cache__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="spring-boot-loader" type="jar" ext="jar" conf="master"/>
+		<artifact name="spring-boot-loader" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="spring-boot-loader" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.springframework" name="spring-core" rev="5.0.9.RELEASE" force="true" conf="optional->compile(*),master(*)"/>
+		<override org="org.mongodb" module="mongodb-driver-core" matcher="exact" rev="3.6.4"/>
+		<override org="org.apache.activemq" module="activemq-jms-pool" matcher="exact" rev="5.15.6"/>
+		<override org="org.infinispan" module="infinispan-cli" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.springframework.cloud" module="spring-cloud-heroku-connector" matcher="exact" rev="2.0.3.RELEASE"/>
+		<override org="ch.qos.logback" module="logback-access" matcher="exact" rev="1.2.3"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-redis" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="io.dropwizard.metrics" module="metrics-jdbi" matcher="exact" rev="3.2.6"/>
+		<override org="org.springframework.boot" module="spring-boot-test-autoconfigure" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="io.dropwizard.metrics" module="metrics-ganglia" matcher="exact" rev="3.2.6"/>
+		<override org="org.hibernate" module="hibernate-entitymanager" matcher="exact" rev="5.2.17.Final"/>
+		<override org="redis.clients" module="jedis" matcher="exact" rev="2.9.0"/>
+		<override org="org.hibernate.validator" module="hibernate-validator-annotation-processor" matcher="exact" rev="6.0.12.Final"/>
+		<override org="org.apache.tomcat.embed" module="tomcat-embed-core" matcher="exact" rev="8.5.34"/>
+		<override org="org.firebirdsql.jdbc" module="jaybird-jdk18" matcher="exact" rev="3.0.5"/>
+		<override org="com.rabbitmq" module="amqp-client" matcher="exact" rev="5.4.1"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-reactor-netty" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.springframework.integration" module="spring-integration-http" matcher="exact" rev="5.0.8.RELEASE"/>
+		<override org="org.infinispan" module="infinispan-persistence-soft-index" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.springframework.data" module="spring-data-releasetrain" matcher="exact" rev="Kay-SR10"/>
+		<override org="org.apache.kafka" module="kafka-streams" matcher="exact" rev="1.0.2"/>
+		<override org="org.apache.activemq" module="artemis-service-extensions" matcher="exact" rev="2.4.0"/>
+		<override org="org.springframework.boot" module="spring-boot-autoconfigure" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.thymeleaf.extras" module="thymeleaf-extras-springsecurity4" matcher="exact" rev="3.0.2.RELEASE"/>
+		<override org="io.reactivex" module="rxjava-reactive-streams" matcher="exact" rev="1.2.1"/>
+		<override org="io.micrometer" module="micrometer-registry-jmx" matcher="exact" rev="1.0.6"/>
+		<override org="org.slf4j" module="slf4j-ext" matcher="exact" rev="1.7.25"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-stdlib-jdk7" matcher="exact" rev="1.2.51"/>
+		<override org="org.apache.kafka" module="kafka-log4j-appender" matcher="exact" rev="1.0.2"/>
+		<override org="org.springframework.ldap" module="spring-ldap-ldif-batch" matcher="exact" rev="2.3.2.RELEASE"/>
+		<override org="io.micrometer" module="micrometer-core" matcher="exact" rev="1.0.6"/>
+		<override org="org.apache.tomcat.embed" module="tomcat-embed-el" matcher="exact" rev="8.5.34"/>
+		<override org="com.hazelcast" module="hazelcast-client" matcher="exact" rev="3.9.4"/>
+		<override org="org.assertj" module="assertj-core" matcher="exact" rev="3.9.1"/>
+		<override org="org.hibernate" module="hibernate-testing" matcher="exact" rev="5.2.17.Final"/>
+		<override org="org.apache.activemq" module="activemq-openwire-generator" matcher="exact" rev="5.15.6"/>
+		<override org="org.jooq" module="jooq-meta" matcher="exact" rev="3.10.8"/>
+		<override org="org.flywaydb" module="flyway-core" matcher="exact" rev="5.0.7"/>
+		<override org="org.springframework.amqp" module="spring-rabbit-junit" matcher="exact" rev="2.0.6.RELEASE"/>
+		<override org="org.apache.solr" module="solr-analytics" matcher="exact" rev="6.6.5"/>
+		<override org="org.hibernate" module="hibernate-jcache" matcher="exact" rev="5.2.17.Final"/>
+		<override org="io.netty" module="netty-bom" matcher="exact" rev="4.1.29.Final"/>
+		<override org="org.codehaus.groovy" module="groovy-jmx" matcher="exact" rev="2.4.15"/>
+		<override org="org.xmlunit" module="xmlunit-legacy" matcher="exact" rev="2.5.1"/>
+		<override org="org.codehaus.groovy" module="groovy-nio" matcher="exact" rev="2.4.15"/>
+		<override org="org.springframework" module="spring-core" matcher="exact" rev="5.0.9.RELEASE"/>
+		<override org="org.hamcrest" module="hamcrest-library" matcher="exact" rev="1.3"/>
+		<override org="org.infinispan" module="infinispan-spring4-remote" matcher="exact" rev="9.1.7.Final"/>
+		<override org="io.dropwizard.metrics" module="metrics-jersey2" matcher="exact" rev="3.2.6"/>
+		<override org="org.codehaus.groovy" module="groovy-swing" matcher="exact" rev="2.4.15"/>
+		<override org="org.infinispan" module="infinispan-jcache-commons" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-log4j2" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.activemq" module="activemq-mqtt" matcher="exact" rev="5.15.6"/>
+		<override org="org.apache.solr" module="solr-dataimporthandler" matcher="exact" rev="6.6.5"/>
+		<override org="org.infinispan" module="infinispan-persistence-cli" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-runtime" matcher="exact" rev="1.2.51"/>
+		<override org="com.querydsl" module="querydsl-mongodb" matcher="exact" rev="4.1.4"/>
+		<override org="io.rest-assured" module="xml-path" matcher="exact" rev="3.0.7"/>
+		<override org="org.apache.kafka" module="connect-runtime" matcher="exact" rev="1.0.2"/>
+		<override org="io.lettuce" module="lettuce-core" matcher="exact" rev="5.0.5.RELEASE"/>
+		<override org="com.fasterxml.jackson" module="jackson-bom" matcher="exact" rev="2.9.6"/>
+		<override org="org.apache.httpcomponents" module="httpclient" matcher="exact" rev="4.5.6"/>
+		<override org="com.hazelcast" module="hazelcast" matcher="exact" rev="3.9.4"/>
+		<override org="io.reactivex" module="rxjava" matcher="exact" rev="1.3.8"/>
+		<override org="org.apache.commons" module="commons-pool2" matcher="exact" rev="2.5.0"/>
+		<override org="org.seleniumhq.selenium" module="htmlunit-driver" matcher="exact" rev="2.29.3"/>
+		<override org="org.xmlunit" module="xmlunit-core" matcher="exact" rev="2.5.1"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-logging" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.springframework.restdocs" module="spring-restdocs-restassured" matcher="exact" rev="2.0.2.RELEASE"/>
+		<override org="org.springframework.ws" module="spring-ws-security" matcher="exact" rev="3.0.3.RELEASE"/>
+		<override org="org.apache.activemq" module="artemis-jms-server" matcher="exact" rev="2.4.0"/>
+		<override org="org.springframework.batch" module="spring-batch-infrastructure" matcher="exact" rev="4.0.1.RELEASE"/>
+		<override org="com.querydsl" module="querydsl-jpa" matcher="exact" rev="4.1.4"/>
+		<override org="org.apache.httpcomponents" module="httpclient-cache" matcher="exact" rev="4.5.6"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-batch" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.commons" module="commons-lang3" matcher="exact" rev="3.7"/>
+		<override org="org.glassfish.jersey.core" module="jersey-client" matcher="exact" rev="2.26"/>
+		<override org="io.micrometer" module="micrometer-registry-datadog" matcher="exact" rev="1.0.6"/>
+		<override org="io.undertow" module="undertow-core" matcher="exact" rev="1.4.25.Final"/>
+		<override org="org.hibernate" module="hibernate-envers" matcher="exact" rev="5.2.17.Final"/>
+		<override org="org.neo4j" module="neo4j-ogm-core" matcher="exact" rev="3.1.2"/>
+		<override org="javax.annotation" module="javax.annotation-api" matcher="exact" rev="1.3.2"/>
+		<override org="org.codehaus.groovy" module="groovy-docgenerator" matcher="exact" rev="2.4.15"/>
+		<override org="org.jboss.narayana.jts" module="narayana-jts-integration" matcher="exact" rev="5.8.2.Final"/>
+		<override org="io.micrometer" module="micrometer-registry-influx" matcher="exact" rev="1.0.6"/>
+		<override org="io.micrometer" module="micrometer-registry-prometheus" matcher="exact" rev="1.0.6"/>
+		<override org="org.seleniumhq.selenium" module="selenium-edge-driver" matcher="exact" rev="3.9.1"/>
+		<override org="org.apache.kafka" module="connect-transforms" matcher="exact" rev="1.0.2"/>
+		<override org="org.apache.logging.log4j" module="log4j-to-slf4j" matcher="exact" rev="2.10.0"/>
+		<override org="org.firebirdsql.jdbc" module="jaybird-jdk17" matcher="exact" rev="3.0.5"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-undertow" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-cassandra-reactive" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="com.sendgrid" module="sendgrid-java" matcher="exact" rev="4.1.2"/>
+		<override org="org.codehaus.groovy" module="groovy-testng" matcher="exact" rev="2.4.15"/>
+		<override org="org.infinispan" module="infinispan-spring4-embedded" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.freemarker" module="freemarker" matcher="exact" rev="2.3.28"/>
+		<override org="org.springframework.restdocs" module="spring-restdocs-webtestclient" matcher="exact" rev="2.0.2.RELEASE"/>
+		<override org="io.dropwizard.metrics" module="metrics-log4j2" matcher="exact" rev="3.2.6"/>
+		<override org="org.jboss.narayana.jta" module="jms" matcher="exact" rev="5.8.2.Final"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-jdbc" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="net.bytebuddy" module="byte-buddy" matcher="exact" rev="1.7.11"/>
+		<override org="org.infinispan" module="infinispan-cdi-common" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.apache.solr" module="solr-analysis-extras" matcher="exact" rev="6.6.5"/>
+		<override org="org.springframework.session" module="spring-session-bom" matcher="exact" rev="Apple-SR5"/>
+		<override org="org.infinispan" module="infinispan-cachestore-rocksdb" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.apache.activemq" module="activemq-run" matcher="exact" rev="5.15.6"/>
+		<override org="io.micrometer" module="micrometer-registry-ganglia" matcher="exact" rev="1.0.6"/>
+		<override org="org.ehcache" module="ehcache-transactions" matcher="exact" rev="3.5.2"/>
+		<override org="org.infinispan" module="infinispan-core" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.springframework.ws" module="spring-ws-test" matcher="exact" rev="3.0.3.RELEASE"/>
+		<override org="org.infinispan" module="infinispan-client-hotrod" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.glassfish.jersey.ext" module="jersey-spring4" matcher="exact" rev="2.26"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-integration" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="io.dropwizard.metrics" module="metrics-servlets" matcher="exact" rev="3.2.6"/>
+		<override org="org.liquibase" module="liquibase-core" matcher="exact" rev="3.5.5"/>
+		<override org="javax.jms" module="javax.jms-api" matcher="exact" rev="2.0.1"/>
+		<override org="org.apache.activemq" module="activemq-pool" matcher="exact" rev="5.15.6"/>
+		<override org="org.springframework.boot" module="spring-boot-configuration-processor" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.hamcrest" module="hamcrest-core" matcher="exact" rev="1.3"/>
+		<override org="com.jayway.jsonpath" module="json-path-assert" matcher="exact" rev="2.4.0"/>
+		<override org="io.dropwizard.metrics" module="metrics-servlet" matcher="exact" rev="3.2.6"/>
+		<override org="org.springframework.cloud" module="spring-cloud-connectors-core" matcher="exact" rev="2.0.3.RELEASE"/>
+		<override org="io.searchbox" module="jest" matcher="exact" rev="5.3.4"/>
+		<override org="org.springframework.boot" module="spring-boot-loader-tools" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-solr" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-mail" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="io.rest-assured" module="scala-support" matcher="exact" rev="3.0.7"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-cloud-connectors" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="commons-codec" module="commons-codec" matcher="exact" rev="1.11"/>
+		<override org="org.ehcache" module="ehcache" matcher="exact" rev="3.5.2"/>
+		<override org="org.apache.httpcomponents" module="fluent-hc" matcher="exact" rev="4.5.6"/>
+		<override org="javax.cache" module="cache-api" matcher="exact" rev="1.1.0"/>
+		<override org="org.apache.kafka" module="connect-api" matcher="exact" rev="1.0.2"/>
+		<override org="org.springframework.boot" module="spring-boot-loader" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.solr" module="solr-uima" matcher="exact" rev="6.6.5"/>
+		<override org="org.codehaus.groovy" module="groovy-templates" matcher="exact" rev="2.4.15"/>
+		<override org="de.flapdoodle.embed" module="de.flapdoodle.embed.mongo" matcher="exact" rev="2.0.3"/>
+		<override org="javax.transaction" module="javax.transaction-api" matcher="exact" rev="1.2"/>
+		<override org="org.apache.logging.log4j" module="log4j-bom" matcher="exact" rev="2.10.0"/>
+		<override org="org.apache.activemq" module="activemq-client" matcher="exact" rev="5.15.6"/>
+		<override org="jaxen" module="jaxen" matcher="exact" rev="1.1.6"/>
+		<override org="org.infinispan" module="infinispan-cloud" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.seleniumhq.selenium" module="selenium-safari-driver" matcher="exact" rev="3.9.1"/>
+		<override org="io.dropwizard.metrics" module="metrics-jetty8" matcher="exact" rev="3.2.6"/>
+		<override org="com.couchbase.client" module="java-client" matcher="exact" rev="2.5.9"/>
+		<override org="org.glassfish.jersey.media" module="jersey-media-multipart" matcher="exact" rev="2.26"/>
+		<override org="org.junit.jupiter" module="junit-jupiter-engine" matcher="exact" rev="5.1.1"/>
+		<override org="org.apache.activemq" module="activemq-runtime-config" matcher="exact" rev="5.15.6"/>
+		<override org="org.springframework.cloud" module="spring-cloud-spring-service-connector" matcher="exact" rev="2.0.3.RELEASE"/>
+		<override org="com.github.ben-manes.caffeine" module="caffeine" matcher="exact" rev="2.6.2"/>
+		<override org="org.apache.httpcomponents" module="httpcore-nio" matcher="exact" rev="4.4.10"/>
+		<override org="org.mongodb" module="bson" matcher="exact" rev="3.6.4"/>
+		<override org="org.elasticsearch.plugin" module="transport-netty4-client" matcher="exact" rev="5.6.11"/>
+		<override org="org.jooq" module="jooq-codegen" matcher="exact" rev="3.10.8"/>
+		<override org="io.micrometer" module="micrometer-registry-statsd" matcher="exact" rev="1.0.6"/>
+		<override org="org.mongodb" module="mongo-java-driver" matcher="exact" rev="3.6.4"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-cassandra" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.activemq" module="activemq-jaas" matcher="exact" rev="5.15.6"/>
+		<override org="org.apache.commons" module="commons-dbcp2" matcher="exact" rev="2.2.0"/>
+		<override org="org.codehaus.groovy" module="groovy-sql" matcher="exact" rev="2.4.15"/>
+		<override org="org.apache.activemq" module="activemq-broker" matcher="exact" rev="5.15.6"/>
+		<override org="org.springframework.boot" module="spring-boot-actuator" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.aspectj" module="aspectjweaver" matcher="exact" rev="1.8.13"/>
+		<override org="org.junit.jupiter" module="junit-jupiter-api" matcher="exact" rev="5.1.1"/>
+		<override org="org.seleniumhq.selenium" module="selenium-api" matcher="exact" rev="3.9.1"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-jetty" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.kafka" module="kafka_2.12" matcher="exact" rev="1.0.2"/>
+		<override org="org.infinispan" module="infinispan-cachestore-jdbc" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-web" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.tomcat" module="tomcat-annotations-api" matcher="exact" rev="8.5.34"/>
+		<override org="org.apache.solr" module="solr-velocity" matcher="exact" rev="6.6.5"/>
+		<override org="org.mongodb" module="mongodb-driver" matcher="exact" rev="3.6.4"/>
+		<override org="org.springframework.retry" module="spring-retry" matcher="exact" rev="1.2.2.RELEASE"/>
+		<override org="com.microsoft.sqlserver" module="mssql-jdbc" matcher="exact" rev="6.2.2.jre8"/>
+		<override org="com.google.appengine" module="appengine-api-1.0-sdk" matcher="exact" rev="1.9.64"/>
+		<override org="org.infinispan" module="infinispan-jcache-remote" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-tomcat" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.infinispan" module="infinispan-tasks-api" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.springframework.session" module="spring-session-bom" matcher="exact" rev="Apple-SR5"/>
+		<override org="org.springframework.plugin" module="spring-plugin-metadata" matcher="exact" rev="1.2.0.RELEASE"/>
+		<override org="org.infinispan" module="infinispan-jcache" matcher="exact" rev="9.1.7.Final"/>
+		<override org="com.hazelcast" module="hazelcast-spring" matcher="exact" rev="3.9.4"/>
+		<override org="com.querydsl" module="querydsl-core" matcher="exact" rev="4.1.4"/>
+		<override org="io.dropwizard.metrics" module="metrics-jvm" matcher="exact" rev="3.2.6"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-neo4j" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.kafka" module="connect-json" matcher="exact" rev="1.0.2"/>
+		<override org="org.hibernate" module="hibernate-proxool" matcher="exact" rev="5.2.17.Final"/>
+		<override org="org.slf4j" module="slf4j-jdk14" matcher="exact" rev="1.7.25"/>
+		<override org="io.undertow" module="undertow-websockets-jsr" matcher="exact" rev="1.4.25.Final"/>
+		<override org="com.timgroup" module="java-statsd-client" matcher="exact" rev="3.1.0"/>
+		<override org="org.glassfish.jersey.ext" module="jersey-entity-filtering" matcher="exact" rev="2.26"/>
+		<override org="com.fasterxml" module="classmate" matcher="exact" rev="1.3.4"/>
+		<override org="javax.json" module="javax.json-api" matcher="exact" rev="1.1.2"/>
+		<override org="org.infinispan" module="infinispan-scripting" matcher="exact" rev="9.1.7.Final"/>
+		<override org="commons-pool" module="commons-pool" matcher="exact" rev="1.6"/>
+		<override org="org.seleniumhq.selenium" module="selenium-support" matcher="exact" rev="3.9.1"/>
+		<override org="org.glassfish" module="javax.el" matcher="exact" rev="3.0.0"/>
+		<override org="com.atomikos" module="transactions-jdbc" matcher="exact" rev="4.0.6"/>
+		<override org="io.rest-assured" module="json-path" matcher="exact" rev="3.0.7"/>
+		<override org="org.glassfish.jersey.containers" module="jersey-container-servlet" matcher="exact" rev="2.26"/>
+		<override org="io.dropwizard.metrics" module="metrics-jersey" matcher="exact" rev="3.2.6"/>
+		<override org="org.codehaus.groovy" module="groovy-jsr223" matcher="exact" rev="2.4.15"/>
+		<override org="com.atomikos" module="transactions-jms" matcher="exact" rev="4.0.6"/>
+		<override org="org.reactivestreams" module="reactive-streams" matcher="exact" rev="1.0.2"/>
+		<override org="net.sourceforge.htmlunit" module="htmlunit" matcher="exact" rev="2.29"/>
+		<override org="com.datastax.cassandra" module="cassandra-driver-core" matcher="exact" rev="3.4.0"/>
+		<override org="com.unboundid" module="unboundid-ldapsdk" matcher="exact" rev="4.0.7"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-rest" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.infinispan" module="infinispan-cdi-embedded" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.springframework.batch" module="spring-batch-core" matcher="exact" rev="4.0.1.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-aop" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="io.projectreactor" module="reactor-bom" matcher="exact" rev="Bismuth-SR11"/>
+		<override org="org.codehaus.groovy" module="groovy-groovysh" matcher="exact" rev="2.4.15"/>
+		<override org="org.apache.activemq" module="activemq-ra" matcher="exact" rev="5.15.6"/>
+		<override org="org.eclipse.jetty" module="jetty-bom" matcher="exact" rev="9.4.12.v20180830"/>
+		<override org="org.springframework.ldap" module="spring-ldap-ldif-core" matcher="exact" rev="2.3.2.RELEASE"/>
+		<override org="org.apache.solr" module="solr-clustering" matcher="exact" rev="6.6.5"/>
+		<override org="org.glassfish.jersey.core" module="jersey-server" matcher="exact" rev="2.26"/>
+		<override org="org.springframework.amqp" module="spring-rabbit-test" matcher="exact" rev="2.0.6.RELEASE"/>
+		<override org="io.dropwizard.metrics" module="metrics-json" matcher="exact" rev="3.2.6"/>
+		<override org="org.apache.httpcomponents" module="httpclient-win" matcher="exact" rev="4.5.6"/>
+		<override org="org.springframework.boot" module="spring-boot-properties-migrator" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.codehaus.janino" module="janino" matcher="exact" rev="3.0.9"/>
+		<override org="org.infinispan" module="infinispan-commons" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.hibernate" module="hibernate-spatial" matcher="exact" rev="5.2.17.Final"/>
+		<override org="javax.money" module="money-api" matcher="exact" rev="1.0.3"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-thymeleaf" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.solr" module="solr-test-framework" matcher="exact" rev="6.6.5"/>
+		<override org="org.hibernate" module="hibernate-infinispan" matcher="exact" rev="5.2.17.Final"/>
+		<override org="org.webjars" module="webjars-locator-core" matcher="exact" rev="0.35"/>
+		<override org="io.undertow" module="undertow-servlet" matcher="exact" rev="1.4.25.Final"/>
+		<override org="org.seleniumhq.selenium" module="selenium-java" matcher="exact" rev="3.9.1"/>
+		<override org="org.slf4j" module="log4j-over-slf4j" matcher="exact" rev="1.7.25"/>
+		<override org="org.infinispan" module="infinispan-server-websocket" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.hibernate" module="hibernate-ehcache" matcher="exact" rev="5.2.17.Final"/>
+		<override org="org.glassfish.jersey.media" module="jersey-media-jaxb" matcher="exact" rev="2.26"/>
+		<override org="org.hibernate" module="hibernate-core" matcher="exact" rev="5.2.17.Final"/>
+		<override org="org.apache.activemq" module="activemq-partition" matcher="exact" rev="5.15.6"/>
+		<override org="org.apache.activemq" module="artemis-server" matcher="exact" rev="2.4.0"/>
+		<override org="org.webjars" module="hal-browser" matcher="exact" rev="3325375"/>
+		<override org="org.apache.tomcat" module="tomcat-jsp-api" matcher="exact" rev="8.5.34"/>
+		<override org="org.influxdb" module="influxdb-java" matcher="exact" rev="2.9"/>
+		<override org="org.mongodb" module="mongodb-driver-reactivestreams" matcher="exact" rev="1.7.1"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-couchbase" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.neo4j" module="neo4j-ogm-http-driver" matcher="exact" rev="3.1.2"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-test" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="io.rest-assured" module="rest-assured" matcher="exact" rev="3.0.7"/>
+		<override org="org.aspectj" module="aspectjtools" matcher="exact" rev="1.8.13"/>
+		<override org="org.seleniumhq.selenium" module="selenium-ie-driver" matcher="exact" rev="3.9.1"/>
+		<override org="com.jayway.jsonpath" module="json-path" matcher="exact" rev="2.4.0"/>
+		<override org="com.atomikos" module="transactions-jta" matcher="exact" rev="4.0.6"/>
+		<override org="com.querydsl" module="querydsl-apt" matcher="exact" rev="4.1.4"/>
+		<override org="io.dropwizard.metrics" module="metrics-jetty9-legacy" matcher="exact" rev="3.2.6"/>
+		<override org="org.infinispan" module="infinispan-spring4-common" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.neo4j" module="neo4j-ogm-bolt-driver" matcher="exact" rev="3.1.2"/>
+		<override org="io.micrometer" module="micrometer-registry-signalfx" matcher="exact" rev="1.0.6"/>
+		<override org="javax.validation" module="validation-api" matcher="exact" rev="2.0.1.Final"/>
+		<override org="org.codehaus.groovy" module="groovy-test" matcher="exact" rev="2.4.15"/>
+		<override org="org.apache.activemq" module="activemq-http" matcher="exact" rev="5.15.6"/>
+		<override org="io.rest-assured" module="spring-mock-mvc" matcher="exact" rev="3.0.7"/>
+		<override org="org.apache.activemq" module="activemq-leveldb-store" matcher="exact" rev="5.15.6"/>
+		<override org="org.mortbay.jasper" module="apache-el" matcher="exact" rev="8.5.33"/>
+		<override org="org.infinispan" module="infinispan-embedded" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.apache.derby" module="derby" matcher="exact" rev="10.14.2.0"/>
+		<override org="org.springframework.kafka" module="spring-kafka" matcher="exact" rev="2.1.10.RELEASE"/>
+		<override org="org.codehaus.btm" module="btm" matcher="exact" rev="2.1.4"/>
+		<override org="org.springframework.boot" module="spring-boot" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="ch.qos.logback" module="logback-classic" matcher="exact" rev="1.2.3"/>
+		<override org="org.springframework.batch" module="spring-batch-test" matcher="exact" rev="4.0.1.RELEASE"/>
+		<override org="dom4j" module="dom4j" matcher="exact" rev="1.6.1"/>
+		<override org="com.fasterxml.jackson" module="jackson-bom" matcher="exact" rev="2.9.6"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-activemq" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.activemq" module="activemq-log4j-appender" matcher="exact" rev="5.15.6"/>
+		<override org="org.jboss.logging" module="jboss-logging" matcher="exact" rev="3.3.2.Final"/>
+		<override org="io.dropwizard.metrics" module="metrics-jetty9" matcher="exact" rev="3.2.6"/>
+		<override org="org.apache.httpcomponents" module="httpmime" matcher="exact" rev="4.5.6"/>
+		<override org="org.infinispan" module="infinispan-remote" matcher="exact" rev="9.1.7.Final"/>
+		<override org="net.java.dev.jna" module="jna-platform" matcher="exact" rev="4.5.2"/>
+		<override org="org.apache.activemq" module="artemis-commons" matcher="exact" rev="2.4.0"/>
+		<override org="org.hibernate.validator" module="hibernate-validator" matcher="exact" rev="6.0.12.Final"/>
+		<override org="org.springframework.ldap" module="spring-ldap-odm" matcher="exact" rev="2.3.2.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-jta-atomikos" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-websocket" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="antlr" module="antlr" matcher="exact" rev="2.7.7"/>
+		<override org="org.apache.kafka" module="kafka_2.11" matcher="exact" rev="1.0.2"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-mustache" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.glassfish.jersey.ext" module="jersey-bean-validation" matcher="exact" rev="2.26"/>
+		<override org="org.springframework.amqp" module="spring-rabbit" matcher="exact" rev="2.0.6.RELEASE"/>
+		<override org="org.apache.activemq" module="activemq-jdbc-store" matcher="exact" rev="5.15.6"/>
+		<override org="org.springframework.hateoas" module="spring-hateoas" matcher="exact" rev="0.25.0.RELEASE"/>
+		<override org="org.xmlunit" module="xmlunit-matchers" matcher="exact" rev="2.5.1"/>
+		<override org="org.infinispan" module="infinispan-server-memcached" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.infinispan" module="infinispan-lucene-directory" matcher="exact" rev="9.1.7.Final"/>
+		<override org="net.sf.ehcache" module="ehcache" matcher="exact" rev="2.10.5"/>
+		<override org="com.google.code.gson" module="gson" matcher="exact" rev="2.8.5"/>
+		<override org="org.springframework.restdocs" module="spring-restdocs-asciidoctor" matcher="exact" rev="2.0.2.RELEASE"/>
+		<override org="org.apache.activemq" module="activemq-osgi" matcher="exact" rev="5.15.6"/>
+		<override org="org.infinispan" module="infinispan-server-router" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.jboss.narayana.jta" module="jta" matcher="exact" rev="5.8.2.Final"/>
+		<override org="org.springframework.integration" module="spring-integration-bom" matcher="exact" rev="5.0.8.RELEASE"/>
+		<override org="io.dropwizard.metrics" module="metrics-graphite" matcher="exact" rev="3.2.6"/>
+		<override org="org.jboss" module="jboss-transaction-spi" matcher="exact" rev="7.6.0.Final"/>
+		<override org="org.springframework.integration" module="spring-integration-bom" matcher="exact" rev="5.0.8.RELEASE"/>
+		<override org="org.apache.solr" module="solr-core" matcher="exact" rev="6.6.5"/>
+		<override org="wsdl4j" module="wsdl4j" matcher="exact" rev="1.6.3"/>
+		<override org="org.infinispan" module="infinispan-cachestore-rest" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.mongodb" module="mongodb-driver-async" matcher="exact" rev="3.6.4"/>
+		<override org="io.dropwizard.metrics" module="metrics-log4j" matcher="exact" rev="3.2.6"/>
+		<override org="mysql" module="mysql-connector-java" matcher="exact" rev="5.1.47"/>
+		<override org="org.neo4j" module="neo4j-ogm-api" matcher="exact" rev="3.1.2"/>
+		<override org="org.apache.activemq" module="activemq-blueprint" matcher="exact" rev="5.15.6"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-amqp" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.glassfish.jersey.core" module="jersey-common" matcher="exact" rev="2.26"/>
+		<override org="org.springframework.boot" module="spring-boot-autoconfigure-processor" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="ch.qos.logback" module="logback-core" matcher="exact" rev="1.2.3"/>
+		<override org="org.infinispan" module="infinispan-embedded-query" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.apache.activemq" module="artemis-journal" matcher="exact" rev="2.4.0"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-artemis" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.tomcat.embed" module="tomcat-embed-websocket" matcher="exact" rev="8.5.34"/>
+		<override org="io.micrometer" module="micrometer-registry-graphite" matcher="exact" rev="1.0.6"/>
+		<override org="io.rest-assured" module="json-schema-validator" matcher="exact" rev="3.0.7"/>
+		<override org="org.codehaus.groovy" module="groovy-xml" matcher="exact" rev="2.4.15"/>
+		<override org="org.apache.activemq" module="artemis-native" matcher="exact" rev="2.4.0"/>
+		<override org="org.infinispan" module="infinispan-cachestore-jpa" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.junit.vintage" module="junit-vintage-engine" matcher="exact" rev="5.1.1"/>
+		<override org="org.hsqldb" module="hsqldb" matcher="exact" rev="2.4.1"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-cache" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="io.micrometer" module="micrometer-registry-atlas" matcher="exact" rev="1.0.6"/>
+		<override org="org.glassfish.jersey.media" module="jersey-media-json-jackson" matcher="exact" rev="2.26"/>
+		<override org="io.projectreactor" module="reactor-bom" matcher="exact" rev="Bismuth-SR11"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-groovy-templates" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="io.dropwizard.metrics" module="metrics-annotation" matcher="exact" rev="3.2.6"/>
+		<override org="org.infinispan" module="infinispan-tasks" matcher="exact" rev="9.1.7.Final"/>
+		<override org="com.samskivert" module="jmustache" matcher="exact" rev="1.14"/>
+		<override org="org.codehaus.groovy" module="groovy-all" matcher="exact" rev="2.4.15"/>
+		<override org="com.hazelcast" module="hazelcast-hibernate52" matcher="exact" rev="1.2.3"/>
+		<override org="org.apache.kafka" module="kafka-tools" matcher="exact" rev="1.0.2"/>
+		<override org="org.slf4j" module="slf4j-api" matcher="exact" rev="1.7.25"/>
+		<override org="org.slf4j" module="slf4j-log4j12" matcher="exact" rev="1.7.25"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-jersey" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.springframework.ldap" module="spring-ldap-test" matcher="exact" rev="2.3.2.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-redis-reactive" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-stdlib-jre8" matcher="exact" rev="1.2.51"/>
+		<override org="org.yaml" module="snakeyaml" matcher="exact" rev="1.19"/>
+		<override org="org.apache.activemq" module="activemq-openwire-legacy" matcher="exact" rev="5.15.6"/>
+		<override org="org.infinispan" module="infinispan-cdi-remote" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.infinispan" module="infinispan-server-hotrod" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.jooq" module="jooq" matcher="exact" rev="3.10.8"/>
+		<override org="org.ehcache" module="ehcache-clustered" matcher="exact" rev="3.5.2"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-hateoas" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.skyscreamer" module="jsonassert" matcher="exact" rev="1.5.0"/>
+		<override org="io.micrometer" module="micrometer-registry-wavefront" matcher="exact" rev="1.0.6"/>
+		<override org="org.thymeleaf" module="thymeleaf-spring5" matcher="exact" rev="3.0.9.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-elasticsearch" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-devtools" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="com.zaxxer" module="HikariCP" matcher="exact" rev="2.7.9"/>
+		<override org="org.seleniumhq.selenium" module="selenium-remote-driver" matcher="exact" rev="3.9.1"/>
+		<override org="org.springframework.security" module="spring-security-bom" matcher="exact" rev="5.0.8.RELEASE"/>
+		<override org="org.springframework.kafka" module="spring-kafka-test" matcher="exact" rev="2.1.10.RELEASE"/>
+		<override org="org.apache.httpcomponents" module="httpclient-osgi" matcher="exact" rev="4.5.6"/>
+		<override org="io.dropwizard.metrics" module="metrics-healthchecks" matcher="exact" rev="3.2.6"/>
+		<override org="io.reactivex.rxjava2" module="rxjava" matcher="exact" rev="2.1.17"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-mongodb" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.kafka" module="connect-file" matcher="exact" rev="1.0.2"/>
+		<override org="org.apache.kafka" module="kafka-clients" matcher="exact" rev="1.0.2"/>
+		<override org="org.codehaus.groovy" module="groovy" matcher="exact" rev="2.4.15"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-couchbase-reactive" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.seleniumhq.selenium" module="selenium-chrome-driver" matcher="exact" rev="3.9.1"/>
+		<override org="com.googlecode.json-simple" module="json-simple" matcher="exact" rev="1.1.1"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-mongodb-reactive" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.httpcomponents" module="httpcore" matcher="exact" rev="4.4.10"/>
+		<override org="org.infinispan" module="infinispan-osgi" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.aspectj" module="aspectjrt" matcher="exact" rev="1.8.13"/>
+		<override org="org.springframework.plugin" module="spring-plugin-core" matcher="exact" rev="1.2.0.RELEASE"/>
+		<override org="org.springframework.ws" module="spring-ws-support" matcher="exact" rev="3.0.3.RELEASE"/>
+		<override org="com.github.mxab.thymeleaf.extras" module="thymeleaf-extras-data-attribute" matcher="exact" rev="2.0.1"/>
+		<override org="org.springframework.restdocs" module="spring-restdocs-mockmvc" matcher="exact" rev="2.0.2.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-jta-bitronix" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.jolokia" module="jolokia-core" matcher="exact" rev="1.5.0"/>
+		<override org="org.jboss.narayana.jta" module="jdbc" matcher="exact" rev="5.8.2.Final"/>
+		<override org="org.apache.tomcat" module="tomcat-jdbc" matcher="exact" rev="8.5.34"/>
+		<override org="org.springframework.boot" module="spring-boot-configuration-metadata" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.johnzon" module="johnzon-jsonb" matcher="exact" rev="1.1.9"/>
+		<override org="org.springframework.amqp" module="spring-amqp" matcher="exact" rev="2.0.6.RELEASE"/>
+		<override org="com.datastax.cassandra" module="cassandra-driver-mapping" matcher="exact" rev="3.4.0"/>
+		<override org="org.apache.activemq" module="activemq-console" matcher="exact" rev="5.15.6"/>
+		<override org="org.apache.activemq" module="activemq-stomp" matcher="exact" rev="5.15.6"/>
+		<override org="org.apache.activemq" module="activemq-web" matcher="exact" rev="5.15.6"/>
+		<override org="org.slf4j" module="slf4j-jcl" matcher="exact" rev="1.7.25"/>
+		<override org="org.springframework.security" module="spring-security-bom" matcher="exact" rev="5.0.8.RELEASE"/>
+		<override org="io.dropwizard.metrics" module="metrics-core" matcher="exact" rev="3.2.6"/>
+		<override org="org.junit.jupiter" module="junit-jupiter-params" matcher="exact" rev="5.1.1"/>
+		<override org="io.dropwizard.metrics" module="metrics-httpasyncclient" matcher="exact" rev="3.2.6"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-reflect" matcher="exact" rev="1.2.51"/>
+		<override org="org.apache.activemq" module="activemq-camel" matcher="exact" rev="5.15.6"/>
+		<override org="org.apache.solr" module="solr-dataimporthandler-extras" matcher="exact" rev="6.6.5"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-stdlib-jdk8" matcher="exact" rev="1.2.51"/>
+		<override org="org.springframework.restdocs" module="spring-restdocs-core" matcher="exact" rev="2.0.2.RELEASE"/>
+		<override org="org.slf4j" module="jcl-over-slf4j" matcher="exact" rev="1.7.25"/>
+		<override org="org.apache.activemq" module="activemq-karaf" matcher="exact" rev="5.15.6"/>
+		<override org="org.codehaus.groovy" module="groovy-servlet" matcher="exact" rev="2.4.15"/>
+		<override org="org.eclipse.jetty.orbit" module="javax.servlet.jsp" matcher="exact" rev="2.2.0.v201112011158"/>
+		<override org="org.apache.tomcat" module="tomcat-catalina-jmx-remote" matcher="exact" rev="8.5.34"/>
+		<override org="org.codehaus.groovy" module="groovy-json" matcher="exact" rev="2.4.15"/>
+		<override org="org.mockito" module="mockito-core" matcher="exact" rev="2.15.0"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-actuator" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.slf4j" module="slf4j-simple" matcher="exact" rev="1.7.25"/>
+		<override org="org.apache.activemq" module="activemq-shiro" matcher="exact" rev="5.15.6"/>
+		<override org="io.micrometer" module="micrometer-registry-cloudwatch" matcher="exact" rev="1.0.6"/>
+		<override org="org.hibernate" module="hibernate-jpamodelgen" matcher="exact" rev="5.2.17.Final"/>
+		<override org="org.apache.activemq" module="artemis-core-client" matcher="exact" rev="2.4.0"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-ldap" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.12"/>
+		<override org="org.apache.solr" module="solr-solrj" matcher="exact" rev="6.6.5"/>
+		<override org="org.infinispan" module="infinispan-objectfilter" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.apache.activemq" module="artemis-selector" matcher="exact" rev="2.4.0"/>
+		<override org="org.infinispan" module="infinispan-remote-query-client" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.seleniumhq.selenium" module="selenium-firefox-driver" matcher="exact" rev="3.9.1"/>
+		<override org="org.slf4j" module="slf4j-nop" matcher="exact" rev="1.7.25"/>
+		<override org="com.couchbase.client" module="couchbase-spring-cache" matcher="exact" rev="2.1.0"/>
+		<override org="org.infinispan" module="infinispan-query" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.hibernate" module="hibernate-java8" matcher="exact" rev="5.2.17.Final"/>
+		<override org="javax.json.bind" module="javax.json.bind-api" matcher="exact" rev="1.0"/>
+		<override org="io.micrometer" module="micrometer-registry-new-relic" matcher="exact" rev="1.0.6"/>
+		<override org="org.springframework" module="spring-framework-bom" matcher="exact" rev="5.0.9.RELEASE"/>
+		<override org="org.slf4j" module="jul-to-slf4j" matcher="exact" rev="1.7.25"/>
+		<override org="org.infinispan" module="infinispan-remote-query-server" matcher="exact" rev="9.1.7.Final"/>
+		<override org="com.h2database" module="h2" matcher="exact" rev="1.4.197"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-security" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.springframework.ws" module="spring-xml" matcher="exact" rev="3.0.3.RELEASE"/>
+		<override org="javax.servlet" module="jstl" matcher="exact" rev="1.2"/>
+		<override org="javax.servlet" module="javax.servlet-api" matcher="exact" rev="3.1.0"/>
+		<override org="org.springframework.data" module="spring-data-releasetrain" matcher="exact" rev="Kay-SR10"/>
+		<override org="org.infinispan" module="infinispan-clustered-counter" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.jdom" module="jdom2" matcher="exact" rev="2.0.6"/>
+		<override org="org.mockito" module="mockito-inline" matcher="exact" rev="2.15.0"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-web-services" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.glassfish.jersey.containers" module="jersey-container-servlet-core" matcher="exact" rev="2.26"/>
+		<override org="org.apache.activemq" module="activemq-amqp" matcher="exact" rev="5.15.6"/>
+		<override org="org.codehaus.groovy" module="groovy-bsf" matcher="exact" rev="2.4.15"/>
+		<override org="org.springframework.ws" module="spring-ws-core" matcher="exact" rev="3.0.3.RELEASE"/>
+		<override org="org.springframework.ldap" module="spring-ldap-core" matcher="exact" rev="2.3.2.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-freemarker" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-data-jpa" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.activemq" module="artemis-jms-client" matcher="exact" rev="2.4.0"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-jooq" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-validation" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.activemq" module="artemis-amqp-protocol" matcher="exact" rev="2.4.0"/>
+		<override org="org.springframework.boot" module="spring-boot-test" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.infinispan" module="infinispan-server-core" matcher="exact" rev="9.1.7.Final"/>
+		<override org="io.dropwizard.metrics" module="metrics-logback" matcher="exact" rev="3.2.6"/>
+		<override org="org.infinispan" module="infinispan-cachestore-remote" matcher="exact" rev="9.1.7.Final"/>
+		<override org="com.sun.mail" module="javax.mail" matcher="exact" rev="1.6.2"/>
+		<override org="org.springframework" module="spring-framework-bom" matcher="exact" rev="5.0.9.RELEASE"/>
+		<override org="org.infinispan" module="infinispan-directory-provider" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.quartz-scheduler" module="quartz-jobs" matcher="exact" rev="2.3.0"/>
+		<override org="org.springframework.ldap" module="spring-ldap-core-tiger" matcher="exact" rev="2.3.2.RELEASE"/>
+		<override org="org.infinispan" module="infinispan-cachestore-leveldb" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.seleniumhq.selenium" module="selenium-opera-driver" matcher="exact" rev="3.9.1"/>
+		<override org="org.synchronoss.cloud" module="nio-multipart-parser" matcher="exact" rev="1.1.0"/>
+		<override org="org.springframework.cloud" module="spring-cloud-localconfig-connector" matcher="exact" rev="2.0.3.RELEASE"/>
+		<override org="net.java.dev.jna" module="jna" matcher="exact" rev="4.5.2"/>
+		<override org="org.hibernate" module="hibernate-hikaricp" matcher="exact" rev="5.2.17.Final"/>
+		<override org="org.springframework.boot" module="spring-boot-starter" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.infinispan" module="infinispan-query-dsl" matcher="exact" rev="9.1.7.Final"/>
+		<override org="org.hibernate" module="hibernate-c3p0" matcher="exact" rev="5.2.17.Final"/>
+		<override org="org.apache.activemq" module="activemq-kahadb-store" matcher="exact" rev="5.15.6"/>
+		<override org="org.elasticsearch" module="elasticsearch" matcher="exact" rev="5.6.11"/>
+		<override org="xml-apis" module="xml-apis" matcher="exact" rev="1.4.01"/>
+		<override org="org.projectlombok" module="lombok" matcher="exact" rev="1.16.22"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-quartz" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.springframework.batch" module="spring-batch-integration" matcher="exact" rev="4.0.1.RELEASE"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-stdlib-jre7" matcher="exact" rev="1.2.51"/>
+		<override org="org.quartz-scheduler" module="quartz" matcher="exact" rev="2.3.0"/>
+		<override org="nz.net.ultraq.thymeleaf" module="thymeleaf-layout-dialect" matcher="exact" rev="2.3.0"/>
+		<override org="org.infinispan" module="infinispan-tools" matcher="exact" rev="9.1.7.Final"/>
+		<override org="io.dropwizard.metrics" module="metrics-ehcache" matcher="exact" rev="3.2.6"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-webflux" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.solr" module="solr-langid" matcher="exact" rev="6.6.5"/>
+		<override org="org.elasticsearch.client" module="transport" matcher="exact" rev="5.6.11"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-json" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.apache.httpcomponents" module="httpasyncclient" matcher="exact" rev="4.1.4"/>
+		<override org="org.thymeleaf" module="thymeleaf" matcher="exact" rev="3.0.9.RELEASE"/>
+		<override org="org.codehaus.groovy" module="groovy-groovydoc" matcher="exact" rev="2.4.15"/>
+		<override org="org.elasticsearch.distribution.integ-test-zip" module="elasticsearch" matcher="exact" rev="5.6.11"/>
+		<override org="org.apache.tomcat.embed" module="tomcat-embed-jasper" matcher="exact" rev="8.5.34"/>
+		<override org="javax.xml.bind" module="jaxb-api" matcher="exact" rev="2.3.0"/>
+		<override org="org.springframework.cloud" module="spring-cloud-cloudfoundry-connector" matcher="exact" rev="2.0.3.RELEASE"/>
+		<override org="org.postgresql" module="postgresql" matcher="exact" rev="42.2.5"/>
+		<override org="org.codehaus.groovy" module="groovy-ant" matcher="exact" rev="2.4.15"/>
+		<override org="org.apache.activemq" module="activemq-spring" matcher="exact" rev="5.15.6"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-stdlib" matcher="exact" rev="1.2.51"/>
+		<override org="org.apache.solr" module="solr-cell" matcher="exact" rev="6.6.5"/>
+		<override org="javax.mail" module="javax.mail-api" matcher="exact" rev="1.6.2"/>
+		<override org="org.springframework.boot" module="spring-boot-actuator-autoconfigure" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="org.infinispan" module="infinispan-tree" matcher="exact" rev="9.1.7.Final"/>
+		<override org="net.sourceforge.nekohtml" module="nekohtml" matcher="exact" rev="1.9.22"/>
+		<override org="org.springframework.boot" module="spring-boot-starter-jta-narayana" matcher="exact" rev="2.0.5.RELEASE"/>
+		<override org="net.bytebuddy" module="byte-buddy-agent" matcher="exact" rev="1.7.11"/>
+		<override org="org.eclipse.jetty" module="jetty-bom" matcher="exact" rev="9.4.12.v20180830"/>
+		<override org="io.netty" module="netty-bom" matcher="exact" rev="4.1.29.Final"/>
+		<override org="net.sourceforge.jtds" module="jtds" matcher="exact" rev="1.3.1"/>
+		<override org="org.xerial" module="sqlite-jdbc" matcher="exact" rev="3.21.0.1"/>
+		<override org="org.thymeleaf.extras" module="thymeleaf-extras-java8time" matcher="exact" rev="3.0.1.RELEASE"/>
+		<override org="org.codehaus.groovy" module="groovy-console" matcher="exact" rev="2.4.15"/>
+		<override org="org.hibernate.javax.persistence" module="hibernate-jpa-2.1-api" matcher="exact" rev="1.0.2.Final"/>
+		<override org="com.querydsl" module="querydsl-collections" matcher="exact" rev="4.1.4"/>
+		<override org="joda-time" module="joda-time" matcher="exact" rev="2.9.9"/>
+		<override org="org.mariadb.jdbc" module="mariadb-java-client" matcher="exact" rev="2.2.6"/>
+		<override org="org.apache.logging.log4j" module="log4j-bom" matcher="exact" rev="2.10.0"/>
+		<override org="org.infinispan" module="infinispan-hibernate-cache" matcher="exact" rev="9.1.7.Final"/>
+	</dependencies>
+</ivy-module>

@@ -1,0 +1,29 @@
+<ivy-module version="2.0">
+	<info organisation="org.springframework.boot" module="spring-boot-sample-ant" revision="working@DESKTOP-67SIDPP" status="integration" publication="20180916171008"/>
+	<configurations>
+		<conf name="compile" description="everything needed to compile this module"/>
+		<conf name="runtime" extends="compile" description="everything needed to run this module"/>
+		<conf name="loader" description="Spring Boot loader used when manually building an executable archive"/>
+	</configurations>
+	<dependencies>
+		<!--<dependency org="org.springframework.boot" name="spring-boot-starter" rev="${ant-spring-boot.version}" conf="*->default" />-->
+		<!--<dependency org="org.springframework.boot" name="spring-boot-loader" rev="${ant-spring-boot.version}" conf="*->default" />-->
+		<dependency org="org.springframework.boot" name="spring-boot-starter-parent" rev="2.0.5.RELEASE" conf="*->default"/>
+		<dependency org="org.springframework.boot" name="spring-boot-loader" rev="2.0.5.RELEASE" conf="*->default"/>
+		<dependency org="org.springframework.boot" name="spring-boot-starter-web" rev="2.0.5.RELEASE" conf="*->default"/>
+		
+		<!-- https://mvnrepository.com/artifact/org.drools/drools-core -->
+		<dependency org="org.drools" name="drools-core" rev="7.7.0.Final"/>
+			<!-- https://mvnrepository.com/artifact/org.kie/kie-api -->
+		<dependency org="org.kie" name="kie-api" rev="7.7.0.Final"/>
+		<!-- https://mvnrepository.com/artifact/org.kie/kie-internal -->
+		<dependency org="org.kie" name="kie-internal" rev="7.7.0.Final"/>
+		<!-- https://mvnrepository.com/artifact/org.drools/drools-compiler -->
+		<dependency org="org.drools" name="drools-compiler" rev="7.7.0.Final"/>
+		
+		
+		
+		
+		
+	</dependencies>
+</ivy-module>
