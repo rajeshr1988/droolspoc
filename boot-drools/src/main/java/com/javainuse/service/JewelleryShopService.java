@@ -1,18 +1,9 @@
 package com.javainuse.service;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-
 import org.kie.api.KieBase;
-import org.kie.api.KieServices;
-import org.kie.api.builder.KieBuilder;
-import org.kie.api.builder.KieFileSystem;
-import org.kie.api.builder.ReleaseId;
-import org.kie.api.io.Resource;
-import org.kie.api.io.ResourceType;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.javainuse.model.Product;
@@ -21,12 +12,14 @@ import com.javainuse.model.Products;
 @Service
 public class JewelleryShopService {
 
-	/*
-	 * private final KieContainer kieContainer;
-	 * 
-	 * @Autowired public JewelleryShopService(KieContainer kieContainer) {
-	 * this.kieContainer = kieContainer; }
-	 */
+	
+	 private final KieContainer kieContainer;
+	 
+	  @Autowired 
+	  public JewelleryShopService(KieContainer kieContainer) {
+	 this.kieContainer = kieContainer; 
+	 }
+	 
 
 	public Products getProductDiscount(Products products) {
 		
@@ -72,16 +65,7 @@ public class JewelleryShopService {
 		
 		
 	    // KieServices is the entry point of APIs
-        KieServices ks = KieServices.Factory.get();
-        File file = new File("C:\\rules\\gold.drl");
-        // KieFileSystem is responsible for gathering resources
-        KieFileSystem kfs = ks.newKieFileSystem();
-        try {
-			kfs.write( "src/main/resources/" + file.getName(), ks.getResources().newInputStreamResource( new FileInputStream( file ) ) );
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+        
         /*File[] files = directory.listFiles();
         for ( File file : files ) {
             String filename = file.getName();
@@ -94,34 +78,11 @@ public class JewelleryShopService {
 
         // You need to specify a unique ReleaseId per KieContainer (= the unit which you store a set of DRL files)
         // ReleaseId consists of "GroupId" + "ArtifactId" + "Version". The same idea of Maven artifact.
-        ReleaseId releaseId = ks.newReleaseId( "com.sample", "sample", "1.0.");
-        kfs.generateAndWritePomXML( releaseId );
-
-        // Now resources are built and stored into an internal repository
-        ks.newKieBuilder( kfs ).buildAll();
-
-        // You can get a KieContainer with the ReleaseId
-        KieContainer kcontainer = ks.newKieContainer( releaseId );
+       
 		
-        KieBase kbase = kcontainer.getKieBase();
+        KieBase kbase = kieContainer.getKieBase();	
 		
-		
-        KieSession kieSession = kbase.newKieSession();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+        KieSession kieSession = kbase.newKieSession();		
 		
 		for (Product product : products.getProductList()) {
 			kieSession.insert(product);
