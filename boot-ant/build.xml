@@ -47,18 +47,18 @@
 	</target>
 	<!-- Manual equivalent of the build target -->
 	<target name="manual" depends="compile">
-		<jar destfile="target/${ant.project.name}-${ant-spring-boot.version}.jar" compress="false">
+		<jar destfile="target/${ant.project.name}-${ant-spring-boot.version}.war" compress="false">
 			<mappedresources>
 				<fileset dir="target/classes" />
-				<globmapper from="*" to="BOOT-INF/classes/*"/>
+				<globmapper from="*" to="WEB-INF/classes/*"/>
 			</mappedresources>
 			<mappedresources>
-				<fileset dir="src/main/resources" erroronmissingdir="false"/>
-				<globmapper from="*" to="BOOT-INF/classes/*"/>
+				<fileset dir="resources" erroronmissingdir="false"/>
+				<globmapper from="*" to="WEB-INF/classes/*"/>
 			</mappedresources>
 			<mappedresources>
 				<fileset dir="${lib.dir}/runtime" />
-				<globmapper from="*" to="BOOT-INF/lib/*"/>
+				<globmapper from="*" to="WEB-INF/lib/*"/>
 			</mappedresources>
 			<zipfileset src="${lib.dir}/loader/spring-boot-loader-jar-${ant-spring-boot.version}.jar" />
 			<manifest>
