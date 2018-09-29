@@ -1,0 +1,213 @@
+{
+	"id": "8002ce48-ba8d-04f3-9f3c-4cd3a5e3653e",
+	"name": "kie-server",
+	"description": "",
+	"order": [
+		"5784ab6f-a776-7e6a-423c-52503bbaf931",
+		"11c9f45a-f610-8589-58f7-e83e619def1c",
+		"a8fb4f70-8a02-7cce-45e1-27b7744f5b1d",
+		"8d7dbd76-ec98-8ff1-ca78-4301d713240b",
+		"e78e682c-93d5-79f7-9e5d-a25ea4731437",
+		"58cbf364-d99b-c738-273e-e57097847906"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1534149019119,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "11c9f45a-f610-8589-58f7-e83e619def1c",
+			"headers": "Authorization: Basic a2llc2VydmVyOmtpZXNlcnZlcg==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic a2llc2VydmVyOmtpZXNlcnZlcg==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/kie-server/services/rest/server/containers",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8002ce48-ba8d-04f3-9f3c-4cd3a5e3653e",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://127.0.0.1:8080/kie-server/services/rest/server/containers",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534149041205,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5784ab6f-a776-7e6a-423c-52503bbaf931",
+			"headers": "Authorization: Basic a2llc2VydmVyOmtpZXNlcnZlcg==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic a2llc2VydmVyOmtpZXNlcnZlcg==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/kie-server/services/rest/server",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8002ce48-ba8d-04f3-9f3c-4cd3a5e3653e",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/kie-server/services/rest/server",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534149030153,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "58cbf364-d99b-c738-273e-e57097847906",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9080/websocket/controller/management",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8002ce48-ba8d-04f3-9f3c-4cd3a5e3653e",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9080/websocket/controller/management",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534149060804,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "8d7dbd76-ec98-8ff1-ca78-4301d713240b",
+			"headers": "Authorization: Basic a2llc2VydmVyOmtpZXNlcnZlcg==\nContent-Type: application/xml\nX-KIE-ContentType: XSTREAM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic a2llc2VydmVyOmtpZXNlcnZlcg==",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/xml",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-KIE-ContentType",
+					"value": "XSTREAM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/kie-server/services/rest/server/containers/instances/ptv",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8002ce48-ba8d-04f3-9f3c-4cd3a5e3653e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/kie-server/services/rest/server/containers/instances/ptv",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534149050933,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "<batch-execution lookup=\"HelloWorldKS\">\r\n  <insert out-identifier=\"test\">\r\n    <org.drools.examples.helloworld.Employee>\r\n      <name>Sophia</name>\r\n      <age>31</age>\r\n    </org.drools.examples.helloworld.Employee>\r\n  </insert>\r\n  <fire-all-rules/>\r\n  <get-objects out-identifier=\"test\"/>\r\n</batch-execution>"
+		},
+		{
+			"id": "a8fb4f70-8a02-7cce-45e1-27b7744f5b1d",
+			"headers": "Authorization: Basic a2llc2VydmVyOmtpZXNlcnZlcg==\nContent-Type: application/xml\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic a2llc2VydmVyOmtpZXNlcnZlcg==",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/xml",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/kie-server/services/rest/server/containers/ptv",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "8002ce48-ba8d-04f3-9f3c-4cd3a5e3653e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/kie-server/services/rest/server/containers/ptv",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534149045996,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "<kie-container container-id=\"ptv\">\r\n  <release-id>\r\n    <artifact-id>drools</artifact-id> \r\n    <group-id>org.drools</group-id>\r\n    <version>7.7.0.Final</version> \r\n  </release-id> \r\n</kie-container>"
+		},
+		{
+			"id": "e78e682c-93d5-79f7-9e5d-a25ea4731437",
+			"headers": "Authorization: Basic a2llc2VydmVyOmtpZXNlcnZlcg==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic a2llc2VydmVyOmtpZXNlcnZlcg==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/kie-server/services/rest/server/containers/ptv",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "8002ce48-ba8d-04f3-9f3c-4cd3a5e3653e",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/kie-server/services/rest/server/containers/ptv",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534149056023,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

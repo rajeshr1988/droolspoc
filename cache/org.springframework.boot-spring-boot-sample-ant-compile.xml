@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.springframework.boot"
+		module="spring-boot-sample-ant"
+		revision="working@DESKTOP-67SIDPP"
+		conf="compile"
+		confs="compile, runtime, loader"
+		date="20180916222127"/>
+	<dependencies>
+		<module organisation="org.antlr" name="ST4" >
+			<revision name="4.0.7" status="release" pubdate="20130105090641" resolver="ibiblio" artresolver="ibiblio" homepage="http://www.stringtemplate.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="68">
+				<license name="BSD licence" url="http://antlr.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="12489" time="979" location="C:\Users\rajes\.ivy2\cache\org.antlr\ST4\ivy-4.0.7.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.antlr\ST4\ivy-4.0.7.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.pom"/>
+				<caller organisation="org.antlr" name="antlr" conf="compile, runtime" rev="4.0.7" rev-constraint-default="4.0.7" rev-constraint-dynamic="4.0.8" callerrev="3.5.2"/>
+				<artifacts>
+					<artifact name="ST4" type="jar" ext="jar" status="successful" details="" size="236126" time="1026" location="C:\Users\rajes\.ivy2\cache\org.antlr\ST4\jars\ST4-4.0.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.drools" name="drools-compiler" >
+			<revision name="7.7.0.Final" status="release" pubdate="20180326200411" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="javadoc, default, system, compile, sources, provided, runtime, *, optional, master" position="64">
+				<metadata-artifact status="successful" details="" size="14079" time="978" location="C:\Users\rajes\.ivy2\cache\org.drools\drools-compiler\ivy-7.7.0.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.drools\drools-compiler\ivy-7.7.0.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/drools/drools-compiler/7.7.0.Final/drools-compiler-7.7.0.Final.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-sample-ant" conf="compile" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="7.7.0.Final" callerrev="working@DESKTOP-67SIDPP"/>
+				<artifacts>
+					<artifact name="drools-compiler" type="javadoc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="3881064" time="1676" location="C:\Users\rajes\.ivy2\cache\org.drools\drools-compiler\javadocs\drools-compiler-7.7.0.Final-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/drools/drools-compiler/7.7.0.Final/drools-compiler-7.7.0.Final-javadoc.jar"/>
+					</artifact>
+					<artifact name="drools-compiler" type="bundle" ext="jar" status="successful" details="" size="1686480" time="1519" location="C:\Users\rajes\.ivy2\cache\org.drools\drools-compiler\bundles\drools-compiler-7.7.0.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/drools/drools-compiler/7.7.0.Final/drools-compiler-7.7.0.Final.jar"/>
+					</artifact>
+					<artifact name="drools-compiler" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="1060913" time="1099" location="C:\Users\rajes\.ivy2\cache\org.drools\drools-compiler\sources\drools-compiler-7.7.0.Final-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/drools/drools-compiler/7.7.0.Final/drools-compiler-7.7.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.janino" name="janino" >
+			<revision name="2.5.16" status="release" pubdate="20100428011736" resolver="ibiblio" artresolver="ibiblio" homepage="http://docs.codehaus.org/display/JANINO/Home" downloaded="true" searched="true" default="false" conf="master(*), compile, compile(*), master" position="69">
+				<license name="New BSD License" url="http://dist.codehaus.org/janino/new_bsd_license.txt"/>
+				<metadata-artifact status="successful" details="" size="8218" time="954" location="C:\Users\rajes\.ivy2\cache\org.codehaus.janino\janino\ivy-2.5.16.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.codehaus.janino\janino\ivy-2.5.16.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/codehaus/janino/janino/2.5.16/janino-2.5.16.pom"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="optional" rev="2.5.16" rev-constraint-default="2.5.16" rev-constraint-dynamic="2.5.16" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="janino" type="jar" ext="jar" status="successful" details="" size="616904" time="1065" location="C:\Users\rajes\.ivy2\cache\org.codehaus.janino\janino\jars\janino-2.5.16.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/codehaus/janino/janino/2.5.16/janino-2.5.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jdt.core.compiler" name="ecj" >
+			<revision name="4.4.2" status="release" pubdate="20150304194654" resolver="ibiblio" artresolver="ibiblio" homepage="http://www.eclipse.org/jdt/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="66">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="successful" details="" size="2073" time="961" location="C:\Users\rajes\.ivy2\cache\org.eclipse.jdt.core.compiler\ecj\ivy-4.4.2.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.eclipse.jdt.core.compiler\ecj\ivy-4.4.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.pom"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="4.4.2" rev-constraint-default="4.4.2" rev-constraint-dynamic="4.4.2" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="ecj" type="jar" ext="jar" status="successful" details="" size="2310271" time="1465" location="C:\Users\rajes\.ivy2\cache\org.eclipse.jdt.core.compiler\ecj\jars\ecj-4.4.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.kie" name="kie-internal" >
+			<revision name="7.7.0.Final" status="release" pubdate="20180326192144" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="javadoc, default, system, compile, sources, provided, runtime, *, optional, master, runtime(*), compile(*), master(*)" position="63">
+				<metadata-artifact status="successful" details="" size="6778" time="947" location="C:\Users\rajes\.ivy2\cache\org.kie\kie-internal\ivy-7.7.0.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.kie\kie-internal\ivy-7.7.0.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/kie/kie-internal/7.7.0.Final/kie-internal-7.7.0.Final.pom"/>
+				<caller organisation="org.drools" name="drools-core" conf="compile, runtime" rev="working@DESKTOP-67SIDPP" rev-constraint-default="working@DESKTOP-67SIDPP" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="working@DESKTOP-67SIDPP" rev-constraint-default="working@DESKTOP-67SIDPP" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-sample-ant" conf="compile" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="7.7.0.Final" callerrev="working@DESKTOP-67SIDPP"/>
+				<artifacts>
+					<artifact name="kie-internal" type="bundle" ext="jar" status="successful" details="" size="249819" time="979" location="C:\Users\rajes\.ivy2\cache\org.kie\kie-internal\bundles\kie-internal-7.7.0.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/kie/kie-internal/7.7.0.Final/kie-internal-7.7.0.Final.jar"/>
+					</artifact>
+					<artifact name="kie-internal" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="292004" time="975" location="C:\Users\rajes\.ivy2\cache\org.kie\kie-internal\sources\kie-internal-7.7.0.Final-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/kie/kie-internal/7.7.0.Final/kie-internal-7.7.0.Final-sources.jar"/>
+					</artifact>
+					<artifact name="kie-internal" type="javadoc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1824406" time="1248" location="C:\Users\rajes\.ivy2\cache\org.kie\kie-internal\javadocs\kie-internal-7.7.0.Final-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/kie/kie-internal/7.7.0.Final/kie-internal-7.7.0.Final-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="working@DESKTOP-67SIDPP" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master, sources, provided, *, optional, javadoc, default, system" position="-1">
+				<evicted-by rev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-core" conf="compile, runtime" rev="working@DESKTOP-67SIDPP" rev-constraint-default="working@DESKTOP-67SIDPP" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="working@DESKTOP-67SIDPP" rev-constraint-default="working@DESKTOP-67SIDPP" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-sample-ant" conf="compile" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="7.7.0.Final" callerrev="working@DESKTOP-67SIDPP"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.kie" name="kie-api" >
+			<revision name="7.7.0.Final" status="release" pubdate="20180326192143" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="javadoc, default, system, compile, sources, provided, runtime, *, optional, master, master(*), runtime(*), compile(*)" position="57">
+				<metadata-artifact status="successful" details="" size="6450" time="944" location="C:\Users\rajes\.ivy2\cache\org.kie\kie-api\ivy-7.7.0.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.kie\kie-api\ivy-7.7.0.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/kie/kie-api/7.7.0.Final/kie-api-7.7.0.Final.pom"/>
+				<caller organisation="org.kie" name="kie-internal" conf="compile, runtime" rev="working@DESKTOP-67SIDPP" rev-constraint-default="working@DESKTOP-67SIDPP" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-core" conf="compile, runtime" rev="working@DESKTOP-67SIDPP" rev-constraint-default="working@DESKTOP-67SIDPP" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="working@DESKTOP-67SIDPP" rev-constraint-default="working@DESKTOP-67SIDPP" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-sample-ant" conf="compile" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="7.7.0.Final" callerrev="working@DESKTOP-67SIDPP"/>
+				<artifacts>
+					<artifact name="kie-api" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="309357" time="993" location="C:\Users\rajes\.ivy2\cache\org.kie\kie-api\sources\kie-api-7.7.0.Final-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/kie/kie-api/7.7.0.Final/kie-api-7.7.0.Final-sources.jar"/>
+					</artifact>
+					<artifact name="kie-api" type="bundle" ext="jar" status="successful" details="" size="221277" time="983" location="C:\Users\rajes\.ivy2\cache\org.kie\kie-api\bundles\kie-api-7.7.0.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/kie/kie-api/7.7.0.Final/kie-api-7.7.0.Final.jar"/>
+					</artifact>
+					<artifact name="kie-api" type="javadoc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="2020067" time="1287" location="C:\Users\rajes\.ivy2\cache\org.kie\kie-api\javadocs\kie-api-7.7.0.Final-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/kie/kie-api/7.7.0.Final/kie-api-7.7.0.Final-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="working@DESKTOP-67SIDPP" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<evicted-by rev="7.7.0.Final"/>
+				<caller organisation="org.kie" name="kie-internal" conf="compile, runtime" rev="working@DESKTOP-67SIDPP" rev-constraint-default="working@DESKTOP-67SIDPP" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-core" conf="compile, runtime" rev="working@DESKTOP-67SIDPP" rev-constraint-default="working@DESKTOP-67SIDPP" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="working@DESKTOP-67SIDPP" rev-constraint-default="working@DESKTOP-67SIDPP" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.spec.javax.jms" name="jboss-jms-api_2.0_spec" >
+			<revision name="1.0.1.Final" status="release" pubdate="20170628133450" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="59">
+				<license name="Common Development and Distribution License" url="http://repository.jboss.org/licenses/cddl.txt"/>
+				<license name="GNU General Public License, Version 2 with the Classpath Exception" url="http://repository.jboss.org/licenses/gpl-2.0-ce.txt"/>
+				<metadata-artifact status="successful" details="" size="4595" time="1067" location="C:\Users\rajes\.ivy2\cache\org.jboss.spec.javax.jms\jboss-jms-api_2.0_spec\ivy-1.0.1.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.jboss.spec.javax.jms\jboss-jms-api_2.0_spec\ivy-1.0.1.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/jboss/spec/javax/jms/jboss-jms-api_2.0_spec/1.0.1.Final/jboss-jms-api_2.0_spec-1.0.1.Final.pom"/>
+				<caller organisation="org.kie" name="kie-api" conf="provided" rev="1.0.1.Final" rev-constraint-default="1.0.1.Final" rev-constraint-dynamic="1.0.1.Final" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="jboss-jms-api_2.0_spec" type="jar" ext="jar" status="successful" details="" size="51306" time="1074" location="C:\Users\rajes\.ivy2\cache\org.jboss.spec.javax.jms\jboss-jms-api_2.0_spec\jars\jboss-jms-api_2.0_spec-1.0.1.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/jboss/spec/javax/jms/jboss-jms-api_2.0_spec/1.0.1.Final/jboss-jms-api_2.0_spec-1.0.1.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.kie.soup" name="kie-soup-maven-support" >
+			<revision name="7.7.0.Final" status="release" pubdate="20180326192130" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="58">
+				<metadata-artifact status="successful" details="" size="1263" time="932" location="C:\Users\rajes\.ivy2\cache\org.kie.soup\kie-soup-maven-support\ivy-7.7.0.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.kie.soup\kie-soup-maven-support\ivy-7.7.0.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/kie/soup/kie-soup-maven-support/7.7.0.Final/kie-soup-maven-support-7.7.0.Final.pom"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="7.7.0.Final" callerrev="7.7.0.Final"/>
+				<caller organisation="org.kie" name="kie-api" conf="compile, runtime" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="7.7.0.Final" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="kie-soup-maven-support" type="bundle" ext="jar" status="successful" details="" size="16895" time="1158" location="C:\Users\rajes\.ivy2\cache\org.kie.soup\kie-soup-maven-support\bundles\kie-soup-maven-support-7.7.0.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/kie/soup/kie-soup-maven-support/7.7.0.Final/kie-soup-maven-support-7.7.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.kie.soup" name="kie-soup-project-datamodel-api" >
+			<revision name="7.7.0.Final" status="release" pubdate="20180326192132" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="42">
+				<metadata-artifact status="successful" details="" size="2736" time="950" location="C:\Users\rajes\.ivy2\cache\org.kie.soup\kie-soup-project-datamodel-api\ivy-7.7.0.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.kie.soup\kie-soup-project-datamodel-api\ivy-7.7.0.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/kie/soup/kie-soup-project-datamodel-api/7.7.0.Final/kie-soup-project-datamodel-api-7.7.0.Final.pom"/>
+				<caller organisation="org.kie.soup" name="kie-soup-project-datamodel-commons" conf="compile, runtime" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="kie-soup-project-datamodel-api" type="bundle" ext="jar" status="successful" details="" size="40505" time="1242" location="C:\Users\rajes\.ivy2\cache\org.kie.soup\kie-soup-project-datamodel-api\bundles\kie-soup-project-datamodel-api-7.7.0.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/kie/soup/kie-soup-project-datamodel-api/7.7.0.Final/kie-soup-project-datamodel-api-7.7.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.drools" name="drools-core" >
+			<revision name="7.7.0.Final" status="release" pubdate="20180326200326" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="javadoc, default, system, compile, sources, provided, runtime, *, optional, master, runtime(*), compile(*), master(*)" position="38">
+				<metadata-artifact status="successful" details="" size="10089" time="998" location="C:\Users\rajes\.ivy2\cache\org.drools\drools-core\ivy-7.7.0.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.drools\drools-core\ivy-7.7.0.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/drools/drools-core/7.7.0.Final/drools-core-7.7.0.Final.pom"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, test, runtime" rev="working@DESKTOP-67SIDPP" rev-constraint-default="working@DESKTOP-67SIDPP" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-sample-ant" conf="compile" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="7.7.0.Final" callerrev="working@DESKTOP-67SIDPP"/>
+				<artifacts>
+					<artifact name="drools-core" type="javadoc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="11688212" time="9052" location="C:\Users\rajes\.ivy2\cache\org.drools\drools-core\javadocs\drools-core-7.7.0.Final-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/drools/drools-core/7.7.0.Final/drools-core-7.7.0.Final-javadoc.jar"/>
+					</artifact>
+					<artifact name="drools-core" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="2064198" time="1502" location="C:\Users\rajes\.ivy2\cache\org.drools\drools-core\sources\drools-core-7.7.0.Final-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/drools/drools-core/7.7.0.Final/drools-core-7.7.0.Final-sources.jar"/>
+					</artifact>
+					<artifact name="drools-core" type="bundle" ext="jar" status="successful" details="" size="3705220" time="2110" location="C:\Users\rajes\.ivy2\cache\org.drools\drools-core\bundles\drools-core-7.7.0.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/drools/drools-core/7.7.0.Final/drools-core-7.7.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="working@DESKTOP-67SIDPP" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master, javadoc, default, system, sources, provided, *, optional" position="-1">
+				<evicted-by rev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, test, runtime" rev="working@DESKTOP-67SIDPP" rev-constraint-default="working@DESKTOP-67SIDPP" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-sample-ant" conf="compile" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="7.7.0.Final" callerrev="working@DESKTOP-67SIDPP"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec" >
+			<revision name="1.10" status="release" pubdate="20141106194535" resolver="ibiblio" artresolver="ibiblio" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="43">
+				<metadata-artifact status="successful" details="" size="11609" time="970" location="C:\Users\rajes\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="org.drools" name="drools-core" conf="compile, runtime" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="successful" details="" size="284184" time="1011" location="C:\Users\rajes\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.stream" name="stax-api" >
+			<revision name="1.0-2" status="release" pubdate="20081004232903" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="50">
+				<license name="GNU General Public Library" url="http://www.gnu.org/licenses/gpl.txt"/>
+				<license name="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0" url="http://www.sun.com/cddl/cddl.html"/>
+				<metadata-artifact status="successful" details="" size="962" time="956" location="C:\Users\rajes\.ivy2\cache\javax.xml.stream\stax-api\ivy-1.0-2.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\javax.xml.stream\stax-api\ivy-1.0-2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom"/>
+				<caller organisation="org.drools" name="drools-core" conf="provided" rev="1.0-2" rev-constraint-default="1.0-2" rev-constraint-dynamic="1.0-2" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="provided" rev="1.0-2" rev-constraint-default="1.0-2" rev-constraint-dynamic="1.0-2" callerrev="7.7.0.Final"/>
+				<caller organisation="org.kie" name="kie-api" conf="provided" rev="1.0-2" rev-constraint-default="1.0-2" rev-constraint-dynamic="1.0-2" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="stax-api" type="jar" ext="jar" status="successful" details="" size="23346" time="1161" location="C:\Users\rajes\.ivy2\cache\javax.xml.stream\stax-api\jars\stax-api-1.0-2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.spec.javax.xml.bind" name="jboss-jaxb-api_2.2_spec" >
+			<revision name="1.0.4.Final" status="release" pubdate="20120319074525" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="49">
+				<license name="CDDL or GPLv2 with exceptions" url="https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="successful" details="" size="4214" time="2229" location="C:\Users\rajes\.ivy2\cache\org.jboss.spec.javax.xml.bind\jboss-jaxb-api_2.2_spec\ivy-1.0.4.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.jboss.spec.javax.xml.bind\jboss-jaxb-api_2.2_spec\ivy-1.0.4.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.2_spec/1.0.4.Final/jboss-jaxb-api_2.2_spec-1.0.4.Final.pom"/>
+				<caller organisation="org.drools" name="drools-core" conf="provided" rev="1.0.4.Final" rev-constraint-default="1.0.4.Final" rev-constraint-dynamic="1.0.4.Final" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="provided" rev="1.0.4.Final" rev-constraint-default="1.0.4.Final" rev-constraint-dynamic="1.0.4.Final" callerrev="7.7.0.Final"/>
+				<caller organisation="org.kie" name="kie-api" conf="provided" rev="1.0.4.Final" rev-constraint-default="1.0.4.Final" rev-constraint-dynamic="1.0.4.Final" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="jboss-jaxb-api_2.2_spec" type="jar" ext="jar" status="successful" details="" size="105446" time="961" location="C:\Users\rajes\.ivy2\cache\org.jboss.spec.javax.xml.bind\jboss-jaxb-api_2.2_spec\jars\jboss-jaxb-api_2.2_spec-1.0.4.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.2_spec/1.0.4.Final/jboss-jaxb-api_2.2_spec-1.0.4.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.xml.bind" name="jaxb-impl" >
+			<revision name="2.2.11" status="release" pubdate="20141010164157" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="48">
+				<metadata-artifact status="successful" details="" size="13720" time="1443" location="C:\Users\rajes\.ivy2\cache\com.sun.xml.bind\jaxb-impl\ivy-2.2.11.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\com.sun.xml.bind\jaxb-impl\ivy-2.2.11.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.pom"/>
+				<caller organisation="org.kie" name="kie-internal" conf="provided" rev="2.2.11" rev-constraint-default="2.2.11" rev-constraint-dynamic="2.2.11" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-core" conf="provided" rev="2.2.11" rev-constraint-default="2.2.11" rev-constraint-dynamic="2.2.11" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="provided" rev="2.2.11" rev-constraint-default="2.2.11" rev-constraint-dynamic="2.2.11" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="jaxb-impl" type="jar" ext="jar" status="successful" details="" size="1047863" time="1098" location="C:\Users\rajes\.ivy2\cache\com.sun.xml.bind\jaxb-impl\jars\jaxb-impl-2.2.11.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.xml.bind" name="jaxb-core" >
+			<revision name="2.2.11" status="release" pubdate="20141010163950" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="47">
+				<metadata-artifact status="successful" details="" size="15361" time="957" location="C:\Users\rajes\.ivy2\cache\com.sun.xml.bind\jaxb-core\ivy-2.2.11.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\com.sun.xml.bind\jaxb-core\ivy-2.2.11.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.pom"/>
+				<caller organisation="org.drools" name="drools-core" conf="provided" rev="2.2.11" rev-constraint-default="2.2.11" rev-constraint-dynamic="2.2.11" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="provided" rev="2.2.11" rev-constraint-default="2.2.11" rev-constraint-dynamic="2.2.11" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="jaxb-core" type="jar" ext="jar" status="successful" details="" size="252336" time="1048" location="C:\Users\rajes\.ivy2\cache\com.sun.xml.bind\jaxb-core\jars\jaxb-core-2.2.11.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.xml.bind" name="jaxb-xjc" >
+			<revision name="2.2.11" status="release" pubdate="20141010164452" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="46">
+				<metadata-artifact status="successful" details="" size="20066" time="1050" location="C:\Users\rajes\.ivy2\cache\com.sun.xml.bind\jaxb-xjc\ivy-2.2.11.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\com.sun.xml.bind\jaxb-xjc\ivy-2.2.11.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-xjc/2.2.11/jaxb-xjc-2.2.11.pom"/>
+				<caller organisation="org.kie" name="kie-internal" conf="provided" rev="2.2.11" rev-constraint-default="2.2.11" rev-constraint-dynamic="2.2.11" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-core" conf="provided" rev="2.2.11" rev-constraint-default="2.2.11" rev-constraint-dynamic="2.2.11" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="provided" rev="2.2.11" rev-constraint-default="2.2.11" rev-constraint-dynamic="2.2.11" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="jaxb-xjc" type="jar" ext="jar" status="successful" details="" size="2033945" time="1293" location="C:\Users\rajes\.ivy2\cache\com.sun.xml.bind\jaxb-xjc\jars\jaxb-xjc-2.2.11.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-xjc/2.2.11/jaxb-xjc-2.2.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr" >
+			<revision name="3.5.2" status="release" pubdate="20140325173441" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="67">
+				<metadata-artifact status="successful" details="" size="2730" time="969" location="C:\Users\rajes\.ivy2\cache\org.antlr\antlr\ivy-3.5.2.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.antlr\antlr\ivy-3.5.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/antlr/3.5.2/antlr-3.5.2.pom"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="provided" rev="3.5.2" rev-constraint-default="3.5.2" rev-constraint-dynamic="3.5.2" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="antlr" type="jar" ext="jar" status="successful" details="" size="1153819" time="1114" location="C:\Users\rajes\.ivy2\cache\org.antlr\antlr\jars\antlr-3.5.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/antlr/antlr/3.5.2/antlr-3.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr-runtime" >
+			<revision name="3.5.2" status="release" pubdate="20140325173356" resolver="ibiblio" artresolver="ibiblio" homepage="http://www.antlr.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="65">
+				<metadata-artifact status="successful" details="" size="2241" time="955" location="C:\Users\rajes\.ivy2\cache\org.antlr\antlr-runtime\ivy-3.5.2.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.antlr\antlr-runtime\ivy-3.5.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom"/>
+				<caller organisation="org.antlr" name="antlr" conf="compile, runtime" rev="3.5.2" rev-constraint-default="3.5.2" rev-constraint-dynamic="3.5.2" callerrev="3.5.2"/>
+				<caller organisation="org.antlr" name="ST4" conf="compile, runtime" rev="3.5.2" rev-constraint-default="3.5.2" rev-constraint-dynamic="3.5" callerrev="4.0.7"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="3.5.2" rev-constraint-default="3.5.2" rev-constraint-dynamic="3.5.2" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="antlr-runtime" type="jar" ext="jar" status="successful" details="" size="167761" time="1009" location="C:\Users\rajes\.ivy2\cache\org.antlr\antlr-runtime\jars\antlr-runtime-3.5.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.kie.soup" name="kie-soup-project-datamodel-commons" >
+			<revision name="7.7.0.Final" status="release" pubdate="20180326192134" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="41">
+				<metadata-artifact status="successful" details="" size="3152" time="983" location="C:\Users\rajes\.ivy2\cache\org.kie.soup\kie-soup-project-datamodel-commons\ivy-7.7.0.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.kie.soup\kie-soup-project-datamodel-commons\ivy-7.7.0.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/kie/soup/kie-soup-project-datamodel-commons/7.7.0.Final/kie-soup-project-datamodel-commons-7.7.0.Final.pom"/>
+				<caller organisation="org.drools" name="drools-core" conf="compile, runtime" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="7.7.0.Final" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="7.7.0.Final" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="kie-soup-project-datamodel-commons" type="bundle" ext="jar" status="successful" details="" size="43632" time="1181" location="C:\Users\rajes\.ivy2\cache\org.kie.soup\kie-soup-project-datamodel-commons\bundles\kie-soup-project-datamodel-commons-7.7.0.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/kie/soup/kie-soup-project-datamodel-commons/7.7.0.Final/kie-soup-project-datamodel-commons-7.7.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.kie.soup" name="kie-soup-commons" >
+			<revision name="7.7.0.Final" status="release" pubdate="20180326192131" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="40">
+				<metadata-artifact status="successful" details="" size="2845" time="925" location="C:\Users\rajes\.ivy2\cache\org.kie.soup\kie-soup-commons\ivy-7.7.0.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.kie.soup\kie-soup-commons\ivy-7.7.0.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/kie/soup/kie-soup-commons/7.7.0.Final/kie-soup-commons-7.7.0.Final.pom"/>
+				<caller organisation="org.kie.soup" name="kie-soup-project-datamodel-commons" conf="compile, runtime" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-core" conf="compile, runtime" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="7.7.0.Final" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="7.7.0.Final" callerrev="7.7.0.Final"/>
+				<caller organisation="org.kie.soup" name="kie-soup-project-datamodel-api" conf="compile, runtime" rev="7.7.0.Final" rev-constraint-default="7.7.0.Final" rev-constraint-dynamic="working@DESKTOP-67SIDPP" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="kie-soup-commons" type="bundle" ext="jar" status="successful" details="" size="19581" time="1156" location="C:\Users\rajes\.ivy2\cache\org.kie.soup\kie-soup-commons\bundles\kie-soup-commons-7.7.0.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/kie/soup/kie-soup-commons/7.7.0.Final/kie-soup-commons-7.7.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.enterprise" name="cdi-api" >
+			<revision name="1.2" status="release" pubdate="20140411145419" resolver="ibiblio" artresolver="ibiblio" homepage="http://cdi-spec.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="60">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="6276" time="1092" location="C:\Users\rajes\.ivy2\cache\javax.enterprise\cdi-api\ivy-1.2.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\javax.enterprise\cdi-api\ivy-1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2.pom"/>
+				<caller organisation="org.kie" name="kie-internal" conf="provided" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="7.7.0.Final"/>
+				<caller organisation="org.kie" name="kie-api" conf="provided" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="cdi-api" type="jar" ext="jar" status="successful" details="" size="71075" time="969" location="C:\Users\rajes\.ivy2\cache\javax.enterprise\cdi-api\jars\cdi-api-1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.interceptor" name="javax.interceptor-api" >
+			<revision name="1.2" status="release" pubdate="20130426193152" resolver="ibiblio" artresolver="ibiblio" homepage="http://interceptors-spec.java.net" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="62">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"/>
+				<metadata-artifact status="successful" details="" size="13347" time="960" location="C:\Users\rajes\.ivy2\cache\javax.interceptor\javax.interceptor-api\ivy-1.2.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\javax.interceptor\javax.interceptor-api\ivy-1.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.pom"/>
+				<caller organisation="javax.enterprise" name="cdi-api" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.2"/>
+				<artifacts>
+					<artifact name="javax.interceptor-api" type="jar" ext="jar" status="successful" details="" size="24404" time="1060" location="C:\Users\rajes\.ivy2\cache\javax.interceptor\javax.interceptor-api\jars\javax.interceptor-api-1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.el" name="javax.el-api" >
+			<revision name="3.0.0" status="release" pubdate="20130426042245" resolver="ibiblio" artresolver="ibiblio" homepage="http://uel-spec.java.net" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="61">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"/>
+				<metadata-artifact status="successful" details="" size="11351" time="980" location="C:\Users\rajes\.ivy2\cache\javax.el\javax.el-api\ivy-3.0.0.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\javax.el\javax.el-api\ivy-3.0.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.pom"/>
+				<caller organisation="javax.enterprise" name="cdi-api" conf="compile, runtime" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="1.2"/>
+				<artifacts>
+					<artifact name="javax.el-api" type="jar" ext="jar" status="successful" details="" size="73063" time="979" location="C:\Users\rajes\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mvel" name="mvel2" >
+			<revision name="2.4.0.Final" status="release" pubdate="20171027142611" resolver="ibiblio" artresolver="ibiblio" homepage="http://mvel.codehaus.org/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="39">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="10639" time="957" location="C:\Users\rajes\.ivy2\cache\org.mvel\mvel2\ivy-2.4.0.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.mvel\mvel2\ivy-2.4.0.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mvel/mvel2/2.4.0.Final/mvel2-2.4.0.Final.pom"/>
+				<caller organisation="org.kie.soup" name="kie-soup-project-datamodel-commons" conf="compile, runtime" rev="2.4.0.Final" rev-constraint-default="2.4.0.Final" rev-constraint-dynamic="2.3.2.Final" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-core" conf="compile, runtime" rev="2.4.0.Final" rev-constraint-default="2.4.0.Final" rev-constraint-dynamic="2.4.0.Final" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="2.4.0.Final" rev-constraint-default="2.4.0.Final" rev-constraint-dynamic="2.4.0.Final" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="mvel2" type="jar" ext="jar" status="successful" details="" size="1097011" time="1130" location="C:\Users\rajes\.ivy2\cache\org.mvel\mvel2\jars\mvel2-2.4.0.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mvel/mvel2/2.4.0.Final/mvel2-2.4.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.xstream" name="xstream" >
+			<revision name="1.4.10" status="release" pubdate="20170523195955" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="54">
+				<metadata-artifact status="successful" details="" size="15135" time="1044" location="C:\Users\rajes\.ivy2\cache\com.thoughtworks.xstream\xstream\ivy-1.4.10.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\com.thoughtworks.xstream\xstream\ivy-1.4.10.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.pom"/>
+				<caller organisation="org.kie" name="kie-internal" conf="provided" rev="1.4.10" rev-constraint-default="1.4.10" rev-constraint-dynamic="1.4.10" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-core" conf="optional" rev="1.4.10" rev-constraint-default="1.4.10" rev-constraint-dynamic="1.4.10" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="1.4.10" rev-constraint-default="1.4.10" rev-constraint-dynamic="1.4.10" callerrev="7.7.0.Final"/>
+				<caller organisation="org.kie" name="kie-api" conf="provided" rev="1.4.10" rev-constraint-default="1.4.10" rev-constraint-dynamic="1.4.10" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="xstream" type="jar" ext="jar" status="successful" details="" size="589803" time="1032" location="C:\Users\rajes\.ivy2\cache\com.thoughtworks.xstream\xstream\jars\xstream-1.4.10.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation" >
+			<revision name="1.1.1" status="release" pubdate="20091023235603" resolver="ibiblio" artresolver="ibiblio" homepage="http://java.sun.com/javase/technologies/desktop/javabeans/jaf/index.jsp" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="51">
+				<license name="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="successful" details="" size="644" time="4537" location="C:\Users\rajes\.ivy2\cache\javax.activation\activation\ivy-1.1.1.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\javax.activation\activation\ivy-1.1.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1.pom"/>
+				<caller organisation="org.drools" name="drools-core" conf="provided" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="provided" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="7.7.0.Final"/>
+				<caller organisation="org.kie" name="kie-api" conf="provided" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="7.7.0.Final"/>
+				<caller organisation="com.thoughtworks.xstream" name="xstream" conf="provided" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.4.10"/>
+				<artifacts>
+					<artifact name="activation" type="jar" ext="jar" status="successful" details="" size="69409" time="1054" location="C:\Users\rajes\.ivy2\cache\javax.activation\activation\jars\activation-1.1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xpp3" name="xpp3_min" >
+			<revision name="1.1.4c" status="release" pubdate="20071201143642" resolver="ibiblio" artresolver="ibiblio" homepage="http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="56">
+				<license name="Indiana University Extreme! Lab Software License, vesion 1.1.1" url="http://www.extreme.indiana.edu/viewcvs/~checkout~/XPP3/java/LICENSE.txt"/>
+				<license name="Public Domain" url="http://creativecommons.org/licenses/publicdomain"/>
+				<metadata-artifact status="successful" details="" size="1610" time="1473" location="C:\Users\rajes\.ivy2\cache\xpp3\xpp3_min\ivy-1.1.4c.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\xpp3\xpp3_min\ivy-1.1.4c.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom"/>
+				<caller organisation="com.thoughtworks.xstream" name="xstream" conf="compile, runtime" rev="1.1.4c" rev-constraint-default="1.1.4c" rev-constraint-dynamic="1.1.4c" callerrev="1.4.10"/>
+				<artifacts>
+					<artifact name="xpp3_min" type="jar" ext="jar" status="successful" details="" size="24956" time="1016" location="C:\Users\rajes\.ivy2\cache\xpp3\xpp3_min\jars\xpp3_min-1.1.4c.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xmlpull" name="xmlpull" >
+			<revision name="1.1.3.1" status="release" pubdate="20070320054831" resolver="ibiblio" artresolver="ibiblio" homepage="http://www.xmlpull.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="55">
+				<license name="Public Domain" url="http://www.xmlpull.org/v1/download/unpacked/LICENSE.txt"/>
+				<metadata-artifact status="successful" details="" size="386" time="1028" location="C:\Users\rajes\.ivy2\cache\xmlpull\xmlpull\ivy-1.1.3.1.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\xmlpull\xmlpull\ivy-1.1.3.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom"/>
+				<caller organisation="com.thoughtworks.xstream" name="xstream" conf="compile, runtime" rev="1.1.3.1" rev-constraint-default="1.1.3.1" rev-constraint-dynamic="1.1.3.1" callerrev="1.4.10"/>
+				<artifacts>
+					<artifact name="xmlpull" type="jar" ext="jar" status="successful" details="" size="7188" time="1015" location="C:\Users\rajes\.ivy2\cache\xmlpull\xmlpull\jars\xmlpull-1.1.3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java" >
+			<revision name="2.6.0" status="release" pubdate="20140904043908" resolver="ibiblio" artresolver="ibiblio" homepage="http://code.google.com/p/protobuf" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="53">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="9249" time="945" location="C:\Users\rajes\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-2.6.0.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.pom"/>
+				<caller organisation="org.drools" name="drools-core" conf="optional" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="successful" details="" size="596435" time="1062" location="C:\Users\rajes\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.6.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.osgi" name="org.osgi.compendium" >
+			<revision name="4.3.1" status="release" pubdate="20121030151539" resolver="ibiblio" artresolver="ibiblio" homepage="
+    http://www.osgi.org
+  " downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="45">
+				<license name="
+        Apache License, Version 2.0
+      " url="
+        http://opensource.org/licenses/apache2.0.php
+      "/>
+				<metadata-artifact status="successful" details="" size="1425" time="965" location="C:\Users\rajes\.ivy2\cache\org.osgi\org.osgi.compendium\ivy-4.3.1.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.osgi\org.osgi.compendium\ivy-4.3.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/osgi/org.osgi.compendium/4.3.1/org.osgi.compendium-4.3.1.pom"/>
+				<caller organisation="org.kie" name="kie-internal" conf="provided" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-core" conf="provided" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="provided" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="7.7.0.Final"/>
+				<caller organisation="org.kie" name="kie-api" conf="provided" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="org.osgi.compendium" type="jar" ext="jar" status="successful" details="" size="767142" time="1129" location="C:\Users\rajes\.ivy2\cache\org.osgi\org.osgi.compendium\jars\org.osgi.compendium-4.3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/osgi/org.osgi.compendium/4.3.1/org.osgi.compendium-4.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.osgi" name="org.osgi.core" >
+			<revision name="4.3.1" status="release" pubdate="20121030151430" resolver="ibiblio" artresolver="ibiblio" homepage="
+    http://www.osgi.org
+  " downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="44">
+				<license name="
+        Apache License, Version 2.0
+      " url="
+        http://opensource.org/licenses/apache2.0.php
+      "/>
+				<metadata-artifact status="successful" details="" size="1413" time="947" location="C:\Users\rajes\.ivy2\cache\org.osgi\org.osgi.core\ivy-4.3.1.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.osgi\org.osgi.core\ivy-4.3.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.pom"/>
+				<caller organisation="org.kie" name="kie-internal" conf="provided" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-core" conf="provided" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="provided" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="7.7.0.Final"/>
+				<caller organisation="org.kie" name="kie-api" conf="provided" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="org.osgi.core" type="jar" ext="jar" status="successful" details="" size="349985" time="1004" location="C:\Users\rajes\.ivy2\cache\org.osgi\org.osgi.core\jars\org.osgi.core-4.3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-web" >
+			<revision name="2.0.5.RELEASE" status="release" pubdate="20180912162839" resolver="ibiblio" artresolver="ibiblio" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-web" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3204" time="985" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-web\ivy-2.0.5.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-web\ivy-2.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-web/2.0.5.RELEASE/spring-boot-starter-web-2.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-sample-ant" conf="compile" rev="2.0.5.RELEASE" rev-constraint-default="2.0.5.RELEASE" rev-constraint-dynamic="2.0.5.RELEASE" callerrev="working@DESKTOP-67SIDPP"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-web" type="jar" ext="jar" status="successful" details="" size="587" time="951" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-web\jars\spring-boot-starter-web-2.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-web/2.0.5.RELEASE/spring-boot-starter-web-2.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-tomcat" >
+			<revision name="2.0.5.RELEASE" status="release" pubdate="20180912162947" resolver="ibiblio" artresolver="ibiblio" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-tomcat" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="28">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2976" time="1009" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-tomcat\ivy-2.0.5.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-tomcat\ivy-2.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.0.5.RELEASE/spring-boot-starter-tomcat-2.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="2.0.5.RELEASE" rev-constraint-default="2.0.5.RELEASE" rev-constraint-dynamic="2.0.5.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-tomcat" type="jar" ext="jar" status="successful" details="" size="590" time="960" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-tomcat\jars\spring-boot-starter-tomcat-2.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.0.5.RELEASE/spring-boot-starter-tomcat-2.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-json" >
+			<revision name="2.0.5.RELEASE" status="release" pubdate="20180912162954" resolver="ibiblio" artresolver="ibiblio" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-json" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="20">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3124" time="967" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-json\ivy-2.0.5.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-json\ivy-2.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-json/2.0.5.RELEASE/spring-boot-starter-json-2.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="2.0.5.RELEASE" rev-constraint-default="2.0.5.RELEASE" rev-constraint-dynamic="2.0.5.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-json" type="jar" ext="jar" status="successful" details="" size="645" time="948" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-json\jars\spring-boot-starter-json-2.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-json/2.0.5.RELEASE/spring-boot-starter-json-2.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" >
+			<revision name="2.9.6" status="release" pubdate="20180612100328" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="25">
+				<metadata-artifact status="successful" details="" size="1914" time="935" location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.9.6.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.9.6.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.6/jackson-datatype-jdk8-2.9.6.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jdk8" type="bundle" ext="jar" status="successful" details="" size="33395" time="1135" location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.9.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.6/jackson-datatype-jdk8-2.9.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter" >
+			<revision name="2.0.5.RELEASE" status="release" pubdate="20180912162915" resolver="ibiblio" artresolver="ibiblio" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3083" time="963" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter\ivy-2.0.5.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter\ivy-2.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/2.0.5.RELEASE/spring-boot-starter-2.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="2.0.5.RELEASE" rev-constraint-default="2.0.5.RELEASE" rev-constraint-dynamic="2.0.5.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="2.0.5.RELEASE" rev-constraint-default="2.0.5.RELEASE" rev-constraint-dynamic="2.0.5.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-starter" type="jar" ext="jar" status="successful" details="" size="592" time="1024" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter\jars\spring-boot-starter-2.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/2.0.5.RELEASE/spring-boot-starter-2.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-logging" >
+			<revision name="2.0.5.RELEASE" status="release" pubdate="20180912162908" resolver="ibiblio" artresolver="ibiblio" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-logging" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2503" time="961" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-logging\ivy-2.0.5.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-logging\ivy-2.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.0.5.RELEASE/spring-boot-starter-logging-2.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.0.5.RELEASE" rev-constraint-default="2.0.5.RELEASE" rev-constraint-dynamic="2.0.5.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-logging" type="jar" ext="jar" status="successful" details="" size="612" time="947" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-logging\jars\spring-boot-starter-logging-2.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.0.5.RELEASE/spring-boot-starter-logging-2.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-to-slf4j" >
+			<revision name="2.10.0" status="release" pubdate="20171119133848" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="16">
+				<metadata-artifact status="successful" details="" size="7175" time="974" location="C:\Users\rajes\.ivy2\cache\org.apache.logging.log4j\log4j-to-slf4j\ivy-2.10.0.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.apache.logging.log4j\log4j-to-slf4j\ivy-2.10.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-logging" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="log4j-to-slf4j" type="jar" ext="jar" status="successful" details="" size="17519" time="1069" location="C:\Users\rajes\.ivy2\cache\org.apache.logging.log4j\log4j-to-slf4j\jars\log4j-to-slf4j-2.10.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-autoconfigure" >
+			<revision name="2.0.5.RELEASE" status="release" pubdate="20180912162959" resolver="ibiblio" artresolver="ibiblio" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-autoconfigure" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="11">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="32430" time="1105" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-autoconfigure\ivy-2.0.5.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-autoconfigure\ivy-2.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.0.5.RELEASE" rev-constraint-default="2.0.5.RELEASE" rev-constraint-dynamic="2.0.5.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-autoconfigure" type="jar" ext="jar" status="successful" details="" size="1174244" time="1112" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-autoconfigure\jars\spring-boot-autoconfigure-2.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-websocket" >
+			<revision name="8.5.34" status="release" pubdate="20180905040900" resolver="ibiblio" artresolver="ibiblio" homepage="https://tomcat.apache.org/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="31">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1580" time="961" location="C:\Users\rajes\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-websocket\ivy-8.5.34.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-websocket\ivy-8.5.34.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.34/tomcat-embed-websocket-8.5.34.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-tomcat" conf="compile, runtime" rev="8.5.34" rev-constraint-default="8.5.34" rev-constraint-dynamic="8.5.34" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="tomcat-embed-websocket" type="jar" ext="jar" status="successful" details="" size="257178" time="1016" location="C:\Users\rajes\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-websocket\jars\tomcat-embed-websocket-8.5.34.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.34/tomcat-embed-websocket-8.5.34.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-el" >
+			<revision name="8.5.34" status="release" pubdate="20180905040850" resolver="ibiblio" artresolver="ibiblio" homepage="https://tomcat.apache.org/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="30">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1336" time="968" location="C:\Users\rajes\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-el\ivy-8.5.34.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-el\ivy-8.5.34.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.34/tomcat-embed-el-8.5.34.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-tomcat" conf="compile, runtime" rev="8.5.34" rev-constraint-default="8.5.34" rev-constraint-dynamic="8.5.34" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="tomcat-embed-el" type="jar" ext="jar" status="successful" details="" size="246012" time="1012" location="C:\Users\rajes\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-el\jars\tomcat-embed-el-8.5.34.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.34/tomcat-embed-el-8.5.34.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-parameter-names" >
+			<revision name="2.9.6" status="release" pubdate="20180612100148" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="27">
+				<metadata-artifact status="successful" details="" size="3732" time="956" location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-parameter-names\ivy-2.9.6.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-parameter-names\ivy-2.9.6.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.6/jackson-module-parameter-names-2.9.6.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="jackson-module-parameter-names" type="bundle" ext="jar" status="successful" details="" size="8645" time="1020" location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-parameter-names\bundles\jackson-module-parameter-names-2.9.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.6/jackson-module-parameter-names-2.9.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" >
+			<revision name="2.9.6" status="release" pubdate="20180612100550" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="26">
+				<metadata-artifact status="successful" details="" size="4267" time="961" location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.9.6.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.9.6.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.6/jackson-datatype-jsr310-2.9.6.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jsr310" type="bundle" ext="jar" status="successful" details="" size="99987" time="996" location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.9.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.6/jackson-datatype-jsr310-2.9.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot" >
+			<revision name="2.0.5.RELEASE" status="release" pubdate="20180912162956" resolver="ibiblio" artresolver="ibiblio" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="14408" time="996" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot\ivy-2.0.5.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot\ivy-2.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot/2.0.5.RELEASE/spring-boot-2.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-autoconfigure" conf="compile, runtime" rev="2.0.5.RELEASE" rev-constraint-default="2.0.5.RELEASE" rev-constraint-dynamic="2.0.5.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.0.5.RELEASE" rev-constraint-default="2.0.5.RELEASE" rev-constraint-dynamic="2.0.5.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot" type="jar" ext="jar" status="successful" details="" size="936980" time="1088" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot\jars\spring-boot-2.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot/2.0.5.RELEASE/spring-boot-2.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml" >
+			<revision name="1.19" status="release" pubdate="20171014171506" resolver="ibiblio" artresolver="ibiblio" homepage="http://www.snakeyaml.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="19">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="35254" time="1053" location="C:\Users\rajes\.ivy2\cache\org.yaml\snakeyaml\ivy-1.19.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.yaml\snakeyaml\ivy-1.19.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="runtime" rev="1.19" rev-constraint-default="1.19" rev-constraint-dynamic="1.19" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="bundle" ext="jar" status="successful" details="" size="297518" time="1001" location="C:\Users\rajes\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.19.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-webmvc" >
+			<revision name="5.0.9.RELEASE" status="release" pubdate="20180907193254" resolver="ibiblio" artresolver="ibiblio" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="37">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="9433" time="939" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-webmvc\ivy-5.0.9.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-webmvc\ivy-5.0.9.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-webmvc" type="jar" ext="jar" status="successful" details="" size="792703" time="1088" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-webmvc\jars\spring-webmvc-5.0.9.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-web" >
+			<revision name="5.0.9.RELEASE" status="release" pubdate="20180907192204" resolver="ibiblio" artresolver="ibiblio" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="11677" time="981" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-web\ivy-5.0.9.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-web\ivy-5.0.9.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-web" type="jar" ext="jar" status="successful" details="" size="1263884" time="1094" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-web\jars\spring-web-5.0.9.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate.validator" name="hibernate-validator" >
+			<revision name="6.0.12.Final" status="release" pubdate="20180810214157" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="33">
+				<metadata-artifact status="successful" details="" size="14953" time="989" location="C:\Users\rajes\.ivy2\cache\org.hibernate.validator\hibernate-validator\ivy-6.0.12.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.hibernate.validator\hibernate-validator\ivy-6.0.12.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.0.12.Final/hibernate-validator-6.0.12.Final.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-web" conf="compile, runtime" rev="6.0.12.Final" rev-constraint-default="6.0.12.Final" rev-constraint-dynamic="6.0.12.Final" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="hibernate-validator" type="jar" ext="jar" status="successful" details="" size="1155353" time="1100" location="C:\Users\rajes\.ivy2\cache\org.hibernate.validator\hibernate-validator\jars\hibernate-validator-6.0.12.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.0.12.Final/hibernate-validator-6.0.12.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml" name="classmate" >
+			<revision name="1.3.4" status="release" pubdate="20170910031804" resolver="ibiblio" artresolver="ibiblio" homepage="http://github.com/FasterXML/java-classmate" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="36">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="5830" time="939" location="C:\Users\rajes\.ivy2\cache\com.fasterxml\classmate\ivy-1.3.4.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\com.fasterxml\classmate\ivy-1.3.4.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4.pom"/>
+				<caller organisation="org.hibernate.validator" name="hibernate-validator" conf="compile, runtime" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="6.0.12.Final"/>
+				<artifacts>
+					<artifact name="classmate" type="bundle" ext="jar" status="successful" details="" size="65100" time="938" location="C:\Users\rajes\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.3.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.logging" name="jboss-logging" >
+			<revision name="3.3.2.Final" status="release" pubdate="20180215025338" resolver="ibiblio" artresolver="ibiblio" homepage="http://www.jboss.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="35">
+				<license name="Apache License, version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="6352" time="966" location="C:\Users\rajes\.ivy2\cache\org.jboss.logging\jboss-logging\ivy-3.3.2.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.jboss.logging\jboss-logging\ivy-3.3.2.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom"/>
+				<caller organisation="org.hibernate.validator" name="hibernate-validator" conf="compile, runtime" rev="3.3.2.Final" rev-constraint-default="3.3.2.Final" rev-constraint-dynamic="3.3.2.Final" callerrev="6.0.12.Final"/>
+				<artifacts>
+					<artifact name="jboss-logging" type="jar" ext="jar" status="successful" details="" size="66469" time="961" location="C:\Users\rajes\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.3.2.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.validation" name="validation-api" >
+			<revision name="2.0.1.Final" status="release" pubdate="20171219215341" resolver="ibiblio" artresolver="ibiblio" homepage="http://beanvalidation.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="34">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="11690" time="985" location="C:\Users\rajes\.ivy2\cache\javax.validation\validation-api\ivy-2.0.1.Final.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\javax.validation\validation-api\ivy-2.0.1.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.pom"/>
+				<caller organisation="org.hibernate.validator" name="hibernate-validator" conf="compile, runtime" rev="2.0.1.Final" rev-constraint-default="2.0.1.Final" rev-constraint-dynamic="2.0.1.Final" callerrev="6.0.12.Final"/>
+				<artifacts>
+					<artifact name="validation-api" type="jar" ext="jar" status="successful" details="" size="93107" time="1015" location="C:\Users\rajes\.ivy2\cache\javax.validation\validation-api\jars\validation-api-2.0.1.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-core" >
+			<revision name="8.5.34" status="release" pubdate="20180905040819" resolver="ibiblio" artresolver="ibiblio" homepage="https://tomcat.apache.org/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="29">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1574" time="938" location="C:\Users\rajes\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-core\ivy-8.5.34.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-core\ivy-8.5.34.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-tomcat" conf="compile, runtime" rev="8.5.34" rev-constraint-default="8.5.34" rev-constraint-dynamic="8.5.34" callerrev="2.0.5.RELEASE"/>
+				<caller organisation="org.apache.tomcat.embed" name="tomcat-embed-websocket" conf="compile, runtime" rev="8.5.34" rev-constraint-default="8.5.34" rev-constraint-dynamic="8.5.34" callerrev="8.5.34"/>
+				<artifacts>
+					<artifact name="tomcat-embed-core" type="jar" ext="jar" status="successful" details="" size="3139108" time="1619" location="C:\Users\rajes\.ivy2\cache\org.apache.tomcat.embed\tomcat-embed-core\jars\tomcat-embed-core-8.5.34.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat" name="tomcat-annotations-api" >
+			<revision name="8.5.34" status="release" pubdate="20180905040312" resolver="ibiblio" artresolver="ibiblio" homepage="https://tomcat.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), runtime" position="32">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1330" time="959" location="C:\Users\rajes\.ivy2\cache\org.apache.tomcat\tomcat-annotations-api\ivy-8.5.34.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.apache.tomcat\tomcat-annotations-api\ivy-8.5.34.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.5.34/tomcat-annotations-api-8.5.34.pom"/>
+				<caller organisation="org.apache.tomcat.embed" name="tomcat-embed-core" conf="runtime" rev="8.5.34" rev-constraint-default="8.5.34" rev-constraint-dynamic="8.5.34" callerrev="8.5.34"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind" >
+			<revision name="2.9.6" status="release" pubdate="20180612064528" resolver="ibiblio" artresolver="ibiblio" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="22">
+				<metadata-artifact status="successful" details="" size="6307" time="951" location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.9.6.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.9.6.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-parameter-names" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.9.6"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-json" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.0.5.RELEASE"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.9.6"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.9.6"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="successful" details="" size="1349339" time="1146" location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.9.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core" >
+			<revision name="2.9.6" status="release" pubdate="20180612062451" resolver="ibiblio" artresolver="ibiblio" homepage="https://github.com/FasterXML/jackson-core" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="24">
+				<metadata-artifact status="successful" details="" size="4060" time="971" location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.9.6.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.9.6.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-parameter-names" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.9.6"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.9.6"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.9.6"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.9.6"/>
+				<artifacts>
+					<artifact name="jackson-core" type="bundle" ext="jar" status="successful" details="" size="323848" time="1038" location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.9.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations" >
+			<revision name="2.9.0" status="release" pubdate="20170730092340" resolver="ibiblio" artresolver="ibiblio" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="23">
+				<metadata-artifact status="successful" details="" size="1941" time="956" location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.9.0.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.9.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.6"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.6"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="successful" details="" size="66519" time="974" location="C:\Users\rajes\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.9.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic" >
+			<revision name="1.2.3" status="release" pubdate="20170401005753" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="13">
+				<metadata-artifact status="successful" details="" size="13081" time="982" location="C:\Users\rajes\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.2.3.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.2.3.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-logging" conf="compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="successful" details="" size="290339" time="1001" location="C:\Users\rajes\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.2.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j" >
+			<revision name="1.7.25" status="release" pubdate="20170316220746" resolver="ibiblio" artresolver="ibiblio" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="17">
+				<metadata-artifact status="successful" details="" size="986" time="958" location="C:\Users\rajes\.ivy2\cache\org.slf4j\jul-to-slf4j\ivy-1.7.25.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.slf4j\jul-to-slf4j\ivy-1.7.25.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-logging" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="jar" ext="jar" status="successful" details="" size="4596" time="992" location="C:\Users\rajes\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.25.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core" >
+			<revision name="1.2.3" status="release" pubdate="20170401005715" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="14">
+				<metadata-artifact status="successful" details="" size="4196" time="971" location="C:\Users\rajes\.ivy2\cache\ch.qos.logback\logback-core\ivy-1.2.3.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\ch.qos.logback\logback-core\ivy-1.2.3.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.2.3"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="successful" details="" size="471901" time="1079" location="C:\Users\rajes\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.2.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context" >
+			<revision name="5.0.9.RELEASE" status="release" pubdate="20180907193108" resolver="ibiblio" artresolver="ibiblio" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="5687" time="975" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-context\ivy-5.0.9.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-context\ivy-5.0.9.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-context" type="jar" ext="jar" status="successful" details="" size="1091178" time="1117" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-context\jars\spring-context-5.0.9.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-expression" >
+			<revision name="5.0.9.RELEASE" status="release" pubdate="20180907192919" resolver="ibiblio" artresolver="ibiblio" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1702" time="1006" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-expression\ivy-5.0.9.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-expression\ivy-5.0.9.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-expression/5.0.9.RELEASE/spring-expression-5.0.9.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-expression" type="jar" ext="jar" status="successful" details="" size="279885" time="975" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-expression\jars\spring-expression-5.0.9.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-expression/5.0.9.RELEASE/spring-expression-5.0.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-aop" >
+			<revision name="5.0.9.RELEASE" status="release" pubdate="20180907193253" resolver="ibiblio" artresolver="ibiblio" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2468" time="1014" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-aop\ivy-5.0.9.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-aop\ivy-5.0.9.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-aop/5.0.9.RELEASE/spring-aop-5.0.9.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-aop" type="jar" ext="jar" status="successful" details="" size="366034" time="1060" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-aop\jars\spring-aop-5.0.9.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-aop/5.0.9.RELEASE/spring-aop-5.0.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-beans" >
+			<revision name="5.0.9.RELEASE" status="release" pubdate="20180907192728" resolver="ibiblio" artresolver="ibiblio" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="9">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2715" time="960" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-beans\ivy-5.0.9.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-beans\ivy-5.0.9.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-web" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-beans" type="jar" ext="jar" status="successful" details="" size="660327" time="1043" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-5.0.9.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject" >
+			<revision name="1" status="release" pubdate="20091014050500" resolver="ibiblio" artresolver="ibiblio" homepage="http://code.google.com/p/atinject/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), provided, runtime, provided(*), compile(*), master" position="52">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="612" time="946" location="C:\Users\rajes\.ivy2\cache\javax.inject\javax.inject\ivy-1.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\javax.inject\javax.inject\ivy-1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="javax.enterprise" name="cdi-api" conf="compile, runtime" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.2"/>
+				<caller organisation="org.drools" name="drools-core" conf="provided" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="javax.inject" type="jar" ext="jar" status="successful" details="" size="2497" time="997" location="C:\Users\rajes\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.annotation" name="javax.annotation-api" >
+			<revision name="1.3.2" status="release" pubdate="20180221155424" resolver="ibiblio" artresolver="ibiblio" homepage="http://jcp.org/en/jsr/detail?id=250" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="18">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://github.com/javaee/javax.annotation/blob/master/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="14478" time="1064" location="C:\Users\rajes\.ivy2\cache\javax.annotation\javax.annotation-api\ivy-1.3.2.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\javax.annotation\javax.annotation-api\ivy-1.3.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-tomcat" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="2.0.5.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="2.0.5.RELEASE"/>
+				<artifacts>
+					<artifact name="javax.annotation-api" type="jar" ext="jar" status="successful" details="" size="26586" time="1042" location="C:\Users\rajes\.ivy2\cache\javax.annotation\javax.annotation-api\jars\javax.annotation-api-1.3.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-loader" >
+			<revision name="2.0.5.RELEASE" status="release" pubdate="20180912162916" resolver="ibiblio" artresolver="ibiblio" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-tools/spring-boot-loader" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2068" time="971" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-loader\ivy-2.0.5.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-loader\ivy-2.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-loader/2.0.5.RELEASE/spring-boot-loader-2.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-sample-ant" conf="compile" rev="2.0.5.RELEASE" rev-constraint-default="2.0.5.RELEASE" rev-constraint-dynamic="2.0.5.RELEASE" callerrev="working@DESKTOP-67SIDPP"/>
+				<artifacts>
+					<artifact name="spring-boot-loader" type="jar" ext="jar" status="successful" details="" size="89559" time="1200" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-loader\jars\spring-boot-loader-2.0.5.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-loader/2.0.5.RELEASE/spring-boot-loader-2.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-core" >
+			<revision name="5.0.9.RELEASE" status="release" pubdate="20180907192434" resolver="ibiblio" artresolver="ibiblio" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3583" time="938" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-core\ivy-5.0.9.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-core\ivy-5.0.9.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-beans" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-expression" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-web" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="2.0.5.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-webmvc" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-core" type="jar" ext="jar" status="successful" details="" size="1226562" time="1153" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-core\jars\spring-core-5.0.9.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-jcl" >
+			<revision name="5.0.9.RELEASE" status="release" pubdate="20180907192604" resolver="ibiblio" artresolver="ibiblio" homepage="https://github.com/spring-projects/spring-framework" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1919" time="945" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-jcl\ivy-5.0.9.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-jcl\ivy-5.0.9.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-jcl/5.0.9.RELEASE/spring-jcl-5.0.9.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-core" conf="compile, runtime" rev="5.0.9.RELEASE" rev-constraint-default="5.0.9.RELEASE" rev-constraint-dynamic="5.0.9.RELEASE" callerrev="5.0.9.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-jcl" type="jar" ext="jar" status="successful" details="" size="21704" time="1051" location="C:\Users\rajes\.ivy2\cache\org.springframework\spring-jcl\jars\spring-jcl-5.0.9.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-jcl/5.0.9.RELEASE/spring-jcl-5.0.9.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api" >
+			<revision name="1.7.25" status="release" pubdate="20170316220632" resolver="ibiblio" artresolver="ibiblio" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="15">
+				<metadata-artifact status="successful" details="" size="3833" time="1011" location="C:\Users\rajes\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.25.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.25.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="org.kie.soup" name="kie-soup-maven-support" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="7.7.0.Final"/>
+				<caller organisation="org.slf4j" name="jul-to-slf4j" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.7.25"/>
+				<caller organisation="org.kie" name="kie-internal" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="7.7.0.Final"/>
+				<caller organisation="org.drools" name="drools-core" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="7.7.0.Final"/>
+				<caller organisation="org.apache.logging.log4j" name="log4j-to-slf4j" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="2.10.0"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.2.3"/>
+				<caller organisation="org.drools" name="drools-compiler" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="7.7.0.Final"/>
+				<caller organisation="org.kie.soup" name="kie-soup-commons" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="7.7.0.Final"/>
+				<caller organisation="org.kie" name="kie-api" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="7.7.0.Final"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="successful" details="" size="41203" time="1160" location="C:\Users\rajes\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.25.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-parent" >
+			<revision name="2.0.5.RELEASE" status="release" pubdate="20180912162950" resolver="ibiblio" artresolver="ibiblio" homepage="https://projects.spring.io/spring-boot/#/spring-boot-starter-parent" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="0">
+				<metadata-artifact status="successful" details="" size="12316" time="1378" location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-parent\ivy-2.0.5.RELEASE.xml" searched="true" original-local-location="C:\Users\rajes\.ivy2\cache\org.springframework.boot\spring-boot-starter-parent\ivy-2.0.5.RELEASE.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.0.5.RELEASE/spring-boot-starter-parent-2.0.5.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-sample-ant" conf="compile" rev="2.0.5.RELEASE" rev-constraint-default="2.0.5.RELEASE" rev-constraint-dynamic="2.0.5.RELEASE" callerrev="working@DESKTOP-67SIDPP"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

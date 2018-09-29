@@ -1,0 +1,26 @@
+PUT
+http://localhost:8080/kie-server/services/rest/server/containers/ptv
+
+<kie-container container-id="ptv">
+  <release-id>
+    <artifact-id>drools</artifact-id> 
+    <group-id>org.drools</group-id>
+    <version>7.7.0.Final</version> 
+  </release-id> 
+</kie-container>
+
+POST
+[{"key":"X-KIE-ContentType","value":"XSTREAM","description":""}]
+
+http://localhost:8080/kie-server/services/rest/server/containers/instances/ptv
+
+<batch-execution lookup="HelloWorldKS">
+  <insert out-identifier="test">
+    <org.drools.examples.helloworld.Employee>
+      <name>Sophia</name>
+      <age>31</age>
+    </org.drools.examples.helloworld.Employee>
+  </insert>
+  <fire-all-rules/>
+  <get-objects out-identifier="test"/>
+</batch-execution>
