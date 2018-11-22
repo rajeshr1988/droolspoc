@@ -9,3 +9,7 @@
 *.classpath
 *.project
 *.settings
+<<<<<<< HEAD
+/target/
+=======
+>>>>>>> branch 'master' of https://github.com/rajeshr1988/droolspoc.git

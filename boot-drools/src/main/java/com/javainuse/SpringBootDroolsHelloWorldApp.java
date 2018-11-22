@@ -1,5 +1,25 @@
 package com.javainuse;
 
+<<<<<<< HEAD
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootDroolsHelloWorldApp {
+	 //private static final Logger logger = LoggerFactory.getLogger(SpringBootDroolsHelloWorldApp.class);
+	public static void main(String[] args) {
+		
+		SpringApplication.run(SpringBootDroolsHelloWorldApp.class, args);
+
+	}
+
+	/*@Bean
+	public KieContainer kieContainer() {
+		return KieServices.Factory.get().getKieClasspathContainer();
+	}*/
+=======
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -46,5 +66,6 @@ public class SpringBootDroolsHelloWorldApp {
         return ks.newKieContainer( releaseId );
 		
 	}
+>>>>>>> branch 'master' of https://github.com/rajeshr1988/droolspoc.git
 
 }
